@@ -1311,15 +1311,15 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="54.766009375" y="37.80205625" size="1.27" layer="28" rot="MR90"/>
 <attribute name="VOLTAGE_RATING" value="10V" x="56.671009375" y="38.43705625" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="C2" library="Hexabitz" package="C-0805-POL" value="1.00uF" x="41.415640625" y="36.877096875" smashed="yes" rot="MR120">
-<attribute name="CAPACITANCE" value="1.00uF" x="41.415640625" y="36.877096875" size="1.778" layer="28" rot="MR120" display="off"/>
-<attribute name="MFN" value="Yageo" x="41.415640625" y="36.877096875" size="1.778" layer="28" rot="MR120" display="off"/>
-<attribute name="MPN" value="CC0805KKX7R7BB105" x="41.415640625" y="36.877096875" size="1.778" layer="28" rot="MR120" display="off"/>
-<attribute name="NAME" x="40.536075" y="33.640215625" size="1.016" layer="26" rot="MR30"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/cc0805kkx7r7bb105-yageo-8376555?r=sp&amp;s=YKl1wwtkROau_X5nniH2ig" x="41.415640625" y="36.877096875" size="1.778" layer="28" rot="MR120" display="off"/>
-<attribute name="TOLERANCE" value="10%" x="41.415640625" y="36.877096875" size="1.778" layer="28" rot="MR120" display="off"/>
-<attribute name="VALUE" x="38.58093125" y="37.047240625" size="1.27" layer="28" rot="MR120"/>
-<attribute name="VOLTAGE_RATING" value="16V" x="41.415640625" y="36.877096875" size="1.778" layer="28" rot="MR120" display="off"/>
+<element name="C2" library="Hexabitz" package="C-0805-POL" value="1.00uF" x="41.377540625" y="39.175796875" smashed="yes" rot="MR90">
+<attribute name="CAPACITANCE" value="1.00uF" x="41.377540625" y="39.175796875" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MFN" value="Yageo" x="41.377540625" y="39.175796875" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="CC0805KKX7R7BB105" x="41.377540625" y="39.175796875" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="42.234253125" y="35.932790625" size="1.016" layer="26" rot="MR0"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/cc0805kkx7r7bb105-yageo-8376555?r=sp&amp;s=YKl1wwtkROau_X5nniH2ig" x="41.377540625" y="39.175796875" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="TOLERANCE" value="10%" x="41.377540625" y="39.175796875" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="38.8375375" y="37.905790625" size="1.27" layer="28" rot="MR90"/>
+<attribute name="VOLTAGE_RATING" value="16V" x="41.377540625" y="39.175796875" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="D1" library="Hexabitz" package="VLMS1300-GS08" value="RED" x="25.17318125" y="31.26105" smashed="yes" rot="R90">
 <attribute name="MFN" value="Vishay" x="25.17318125" y="31.26105" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1354,7 +1354,7 @@ design rules under a new name.</description>
 <element name="X1" library="Hexabitz" package="XTALL_CSTCE8M00G52" value="XTALL_CSTCE8M00G52" x="39.955978125" y="42.465525" smashed="yes" rot="MR270">
 <attribute name="MFN" value="Murata" x="39.955978125" y="42.465525" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="CSTCE8M00G52Z-R0" x="39.955978125" y="42.465525" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="38.1898875" y="41.314878125" size="1.016" layer="26" rot="MR180"/>
+<attribute name="NAME" x="40.3469125" y="43.686221875" size="1.016" layer="26" rot="MR0"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/cstce8m00g52z-r0-murata-17755941?r=sp&amp;s=JDnNJnrHQhyS8Zk4ofFWXw" x="39.955978125" y="42.465525" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="43.511978125" y="45.259525" size="1.27" layer="28" rot="MR270"/>
 </element>
@@ -1387,15 +1387,15 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="29.254696875" y="38.596346875" size="1.27" layer="28" rot="MR270"/>
 <attribute name="VOLTAGE_RATING" value="25V" x="26.714696875" y="37.326346875" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="C5" library="Hexabitz" package="C-0603" value="10nF" x="39.659809375" y="38.09156875" smashed="yes" rot="MR120">
-<attribute name="CAPACITANCE" value="10nF" x="39.659809375" y="38.09156875" size="1.778" layer="28" rot="MR120" display="off"/>
-<attribute name="MFN" value="KEMET" x="39.659809375" y="38.09156875" size="1.778" layer="28" rot="MR120" display="off"/>
-<attribute name="MPN" value="C0603C103K5RACTU" x="39.659809375" y="38.09156875" size="1.778" layer="28" rot="MR120" display="off"/>
-<attribute name="NAME" x="38.024246875" y="37.369940625" size="1.016" layer="26" rot="MR300" align="bottom-right"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/c0603c103k5ractu-kemet-133094?r=sp&amp;s=R_iPBxLnSmGqhkU2rIMFpg" x="39.659809375" y="38.09156875" size="1.778" layer="28" rot="MR120" display="off"/>
-<attribute name="TOLERANCE" value="10%" x="39.659809375" y="38.09156875" size="1.778" layer="28" rot="MR120" display="off"/>
-<attribute name="VALUE" x="37.692525" y="38.4941375" size="1.27" layer="28" rot="MR120"/>
-<attribute name="VOLTAGE_RATING" value="50V" x="39.659809375" y="38.09156875" size="1.778" layer="28" rot="MR120" display="off"/>
+<element name="C5" library="Hexabitz" package="C-0603" value="10nF" x="39.266109375" y="39.66636875" smashed="yes" rot="MR90">
+<attribute name="CAPACITANCE" value="10nF" x="39.266109375" y="39.66636875" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MFN" value="KEMET" x="39.266109375" y="39.66636875" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="C0603C103K5RACTU" x="39.266109375" y="39.66636875" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="38.210484375" y="38.2236375" size="1.016" layer="26" rot="MR270" align="bottom-right"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/c0603c103k5ractu-kemet-133094?r=sp&amp;s=R_iPBxLnSmGqhkU2rIMFpg" x="39.266109375" y="39.66636875" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="TOLERANCE" value="10%" x="39.266109375" y="39.66636875" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="37.36110625" y="39.031359375" size="1.27" layer="28" rot="MR90"/>
+<attribute name="VOLTAGE_RATING" value="50V" x="39.266109375" y="39.66636875" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C6" library="Hexabitz" package="C-0603" value="100nF" x="29.006290625" y="45.315378125" smashed="yes" rot="MR90">
 <attribute name="CAPACITANCE" value="100nF" x="29.006290625" y="45.315378125" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1437,14 +1437,14 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="38.060628125" y="45.695871875" size="1.27" layer="28" rot="MR90"/>
 <attribute name="VOLTAGE_RATING" value="10%" x="39.965628125" y="46.330871875" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R3" library="Hexabitz" package="R-0603" value="0.0R" x="37.03168125" y="31.753553125" smashed="yes" rot="MR0">
-<attribute name="MFN" value="Yageo" x="37.03168125" y="31.753553125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="RC0603JR-070RL" x="37.03168125" y="31.753553125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="38.628565625" y="31.02431875" size="1.016" layer="26" rot="MR90"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/rc0603jr-070rl-yageo-1241539?r=sp&amp;s=X2NteqRjRNWrnx42Y0aliA" x="37.03168125" y="31.753553125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="RESISTANCE" value="0.0 Ohm" x="37.03168125" y="31.753553125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TOLERANCE" value="" x="37.03168125" y="31.753553125" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="37.66668125" y="29.848553125" size="1.27" layer="28" rot="MR0"/>
+<element name="R3" library="Hexabitz" package="R-0603" value="0.0R" x="43.501053125" y="37.60621875" smashed="yes" rot="MR90">
+<attribute name="MFN" value="Yageo" x="43.501053125" y="37.60621875" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="RC0603JR-070RL" x="43.501053125" y="37.60621875" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="42.77181875" y="36.009334375" size="1.016" layer="26" rot="MR180"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/rc0603jr-070rl-yageo-1241539?r=sp&amp;s=X2NteqRjRNWrnx42Y0aliA" x="43.501053125" y="37.60621875" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="RESISTANCE" value="0.0 Ohm" x="43.501053125" y="37.60621875" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="TOLERANCE" value="" x="43.501053125" y="37.60621875" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="41.596053125" y="36.97121875" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="D" library="Hexabitz" package="PAD1" value="PAD1" x="17.3482" y="44.2468" smashed="yes" rot="R180">
 <attribute name="NAME" x="16.188434375" y="45.350171875" size="1.9304" layer="25" rot="R180"/>
@@ -1795,9 +1795,9 @@ design rules under a new name.</description>
 <contactref element="C2" pad="1"/>
 <contactref element="C5" pad="1"/>
 <contactref element="FB1" pad="1"/>
-<wire x1="40.940640625" y1="36.054371875" x2="45.936365625" y2="34.291521875" width="0" layer="19" extent="1-16"/>
-<wire x1="39.234809375" y1="37.355446875" x2="40.940640625" y2="36.054371875" width="0" layer="19" extent="16-16"/>
-<wire x1="37.43520625" y1="40.4822" x2="39.234809375" y2="37.355446875" width="0" layer="19" extent="16-16"/>
+<wire x1="41.377540625" y1="38.225796875" x2="45.936365625" y2="34.291521875" width="0" layer="19" extent="1-16"/>
+<wire x1="39.266109375" y1="38.81636875" x2="41.377540625" y2="38.225796875" width="0" layer="19" extent="16-16"/>
+<wire x1="37.43520625" y1="40.4822" x2="39.266109375" y2="38.81636875" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$5">
 <contactref element="U1" pad="P$5"/>
@@ -1832,16 +1832,9 @@ design rules under a new name.</description>
 <contactref element="C2" pad="2"/>
 <contactref element="C5" pad="2"/>
 <contactref element="U1" pad="P$8"/>
-<wire x1="41.890640625" y1="37.69981875" x2="36.18168125" y2="31.753553125" width="0" layer="19" extent="16-16"/>
-<wire x1="40.084809375" y1="38.8276875" x2="41.890640625" y2="37.69981875" width="0" layer="19" extent="16-16"/>
-<wire x1="37.43520625" y1="40.9822" x2="40.084809375" y2="38.8276875" width="0" layer="19" extent="16-16"/>
-</signal>
-<signal name="N$7">
-<contactref element="U1" pad="P$34"/>
-<contactref element="D" pad="P$2"/>
-<contactref element="D" pad="P$1"/>
-<wire x1="17.3482" y1="44.2468" x2="30.53519375" y2="43.4822" width="0" layer="19" extent="16-16"/>
-<wire x1="17.3482" y1="44.2468" x2="17.3482" y2="44.2468" width="0" layer="19" extent="1-16"/>
+<wire x1="41.377540625" y1="40.125796875" x2="43.501053125" y2="38.45621875" width="0" layer="19" extent="16-16"/>
+<wire x1="39.266109375" y1="40.51636875" x2="41.377540625" y2="40.125796875" width="0" layer="19" extent="16-16"/>
+<wire x1="37.43520625" y1="40.9822" x2="39.266109375" y2="40.51636875" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$9">
 <contactref element="U1" pad="P$37"/>
@@ -1850,52 +1843,52 @@ design rules under a new name.</description>
 <wire x1="17.4752" y1="47.4218" x2="31.2352" y2="45.18220625" width="0" layer="19" extent="16-16"/>
 <wire x1="17.4752" y1="47.4218" x2="17.4752" y2="47.4218" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="USART2_TX">
+<signal name="UART2_TX">
 <contactref element="P1" pad="PAD_PU1"/>
 <contactref element="U1" pad="P$12"/>
 <wire x1="37.43520625" y1="38.9822" x2="47.0102" y2="41.7702" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="USART6_TX">
+<signal name="UART6_TX">
 <contactref element="P1" pad="PAD_PU2"/>
 <contactref element="U1" pad="P$14"/>
 <wire x1="47.0102" y1="27.4702" x2="36.2352" y2="38.28219375" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="USART3_TX">
+<signal name="UART3_TX">
 <contactref element="P1" pad="PAD_PU4"/>
 <contactref element="U1" pad="P$21"/>
 <wire x1="22.2302" y1="27.4702" x2="32.7352" y2="38.28219375" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="USART4_TX">
+<signal name="UART4_TX">
 <contactref element="P1" pad="PAD_PU5"/>
 <contactref element="U1" pad="P$10"/>
 <wire x1="22.2302" y1="41.7702" x2="37.43520625" y2="39.9822" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="USART5_TX">
+<signal name="UART5_TX">
 <contactref element="P1" pad="PAD_PU6"/>
 <contactref element="U1" pad="P$39"/>
 <wire x1="32.2352" y1="45.18220625" x2="34.6202" y2="48.9302" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="USART2_RX">
+<signal name="UART2_RX">
 <contactref element="P1" pad="PAD_PD1"/>
 <contactref element="U1" pad="P$13"/>
 <wire x1="36.7352" y1="38.28219375" x2="47.0102" y2="41.7702" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="USART6_RX">
+<signal name="UART6_RX">
 <contactref element="P1" pad="PAD_PD2"/>
 <contactref element="U1" pad="P$15"/>
 <wire x1="47.0102" y1="27.4702" x2="35.7352" y2="38.28219375" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="USART3_RX">
+<signal name="UART3_RX">
 <contactref element="P1" pad="PAD_PD4"/>
 <contactref element="U1" pad="P$22"/>
 <wire x1="22.2302" y1="27.4702" x2="32.2352" y2="38.28219375" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="USART4_RX">
+<signal name="UART4_RX">
 <contactref element="P1" pad="PAD_PD5"/>
 <contactref element="U1" pad="P$11"/>
 <wire x1="22.2302" y1="41.7702" x2="37.43520625" y2="39.4822" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="USART5_RX">
+<signal name="UART5_RX">
 <contactref element="P1" pad="PAD_PD6"/>
 <contactref element="U1" pad="P$40"/>
 <wire x1="32.7352" y1="45.18220625" x2="34.6202" y2="48.9302" width="0" layer="19" extent="16-16"/>
@@ -1905,12 +1898,12 @@ design rules under a new name.</description>
 <contactref element="U1" pad="P$16"/>
 <wire x1="24.41458125" y1="34.325678125" x2="35.2352" y2="38.28219375" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="USART1_CTS">
+<signal name="UART1_CTS">
 <contactref element="U1" pad="P$32"/>
 <contactref element="U3" pad="16"/>
 <wire x1="-16.977" y1="25.368" x2="30.53519375" y2="42.4822" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="USART1_RTS">
+<signal name="UART1_RTS">
 <contactref element="U1" pad="P$33"/>
 <contactref element="U3" pad="4"/>
 <wire x1="-18.002" y1="22.393" x2="30.53519375" y2="42.9822" width="0" layer="19" extent="1-16"/>
@@ -1978,12 +1971,12 @@ design rules under a new name.</description>
 <contactref element="R6" pad="2"/>
 <wire x1="-15.787" y1="-21.209" x2="-16.129" y2="-32.373" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="USART1_RX">
+<signal name="UART1_RX">
 <contactref element="U3" pad="15"/>
 <contactref element="U1" pad="P$31"/>
 <wire x1="-16.327" y1="25.368" x2="30.53519375" y2="41.9822" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="USART1_TX">
+<signal name="UART1_TX">
 <contactref element="U3" pad="2"/>
 <contactref element="U1" pad="P$30"/>
 <wire x1="-18.002" y1="23.693" x2="30.53519375" y2="41.4822" width="0" layer="19" extent="1-16"/>
@@ -1994,6 +1987,13 @@ design rules under a new name.</description>
 <contactref element="R8" pad="2"/>
 <wire x1="2.667" y1="21.463" x2="15.337" y2="27.254" width="0" layer="19" extent="1-1"/>
 <wire x1="-15.787" y1="6.731" x2="2.667" y2="21.463" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$7">
+<contactref element="D" pad="P$2"/>
+<contactref element="D" pad="P$1"/>
+<contactref element="U1" pad="P$34"/>
+<wire x1="17.3482" y1="44.2468" x2="30.53519375" y2="43.4822" width="0" layer="19" extent="16-16"/>
+<wire x1="17.3482" y1="44.2468" x2="17.3482" y2="44.2468" width="0" layer="19" extent="1-16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
