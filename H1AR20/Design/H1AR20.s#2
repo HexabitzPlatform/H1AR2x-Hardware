@@ -64,7 +64,7 @@
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="97" name="Info" color="12" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Title_Fixed" color="15" fill="1" visible="yes" active="yes"/>
@@ -688,14 +688,14 @@ body 4x4mm, pitch 0.65mm</description>
 </symbol>
 <symbol name="C-3225">
 <description>100µF ±20% 6.3V Ceramic Capacitor X5R 1210 (3225 Metric)</description>
-<wire x1="2.54" y1="0.762" x2="-2.54" y2="0.762" width="0.508" layer="94"/>
-<wire x1="2.54" y1="-0.762" x2="-2.54" y2="-0.762" width="0.508" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="0.762" width="0.15" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-1.016" width="0.15" layer="94"/>
-<text x="2.286" y="2.794" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<pin name="2" x="0" y="5.08" visible="pad" length="short" rot="R270"/>
-<pin name="1" x="0" y="-5.08" visible="pad" length="short" rot="R90"/>
-<text x="2.286" y="-2.286" size="1.778" layer="95" align="top-left">&gt;VALUE</text>
+<wire x1="5.08" y1="-1.778" x2="0" y2="-1.778" width="0.508" layer="94"/>
+<wire x1="5.08" y1="-3.302" x2="0" y2="-3.302" width="0.508" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-1.778" width="0.15" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-3.556" width="0.15" layer="94"/>
+<text x="4.826" y="0.254" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<pin name="2" x="2.54" y="2.54" visible="pad" length="short" rot="R270"/>
+<pin name="1" x="2.54" y="-7.62" visible="pad" length="short" rot="R90"/>
+<text x="4.826" y="-4.826" size="1.778" layer="95" align="top-left">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -953,10 +953,12 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/13c4/090076
 </connects>
 <technologies>
 <technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
 <attribute name="DESCRIPTION" value=" USB - mini B USB 2.0 OTG Receptacle Connector 5 Position Surface Mount, Right Angle "/>
-<attribute name="MFN" value="Molex"/>
-<attribute name="MPN" value="67503-1020"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/67503-1020-molex-766176?r=sp"/>
+<attribute name="MF" value="Molex"/>
+<attribute name="MP" value="67503-1020"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
 </technology>
 </technologies>
 </device>
@@ -977,11 +979,12 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/13c4/090076
 </connects>
 <technologies>
 <technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
 <attribute name="DESCRIPTION" value=" Linear Voltage Regulator IC 1 Output 1A SOT-223-4 "/>
-<attribute name="MFN" value="Texas Instruments"/>
-<attribute name="MPN" value="LM3940IMP-3.3/NOPB"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/lm3940imp-3.3%2Fnopb-texas+instruments-24823014?r=sp"/>
+<attribute name="MF" value="Texas Instruments"/>
+<attribute name="MP" value="LM3940IMP-3.3/NOPB"/>
 <attribute name="PACKAGE" value="SOT-223 Texas Instruments"/>
+<attribute name="PRICE" value="None"/>
 </technology>
 </technologies>
 </device>
@@ -1015,11 +1018,12 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/13c4/090076
 </connects>
 <technologies>
 <technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
 <attribute name="DESCRIPTION" value=" USB Bridge, USB to UART USB 2.0 UART Interface 16-QFN _4x4_ "/>
-<attribute name="MFN" value="FTDI,"/>
-<attribute name="MPN" value="FT230XQ-R"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/ft230xq-r-ftdi-22061504?r=sp"/>
+<attribute name="MF" value="FTDI,"/>
+<attribute name="MP" value="FT230XQ-R"/>
 <attribute name="PACKAGE" value="QFN-16 FTDI"/>
+<attribute name="PRICE" value="None"/>
 </technology>
 </technologies>
 </device>
@@ -1039,11 +1043,18 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/13c4/090076
 <technologies>
 <technology name="">
 <attribute name="CAPACITANCE" value="100.0µF"/>
-<attribute name="DESCRIPTION" value="CAP CER 100UF 6.3V X5R 1210"/>
-<attribute name="MFN" value="TDK"/>
+<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
+<attribute name="DATASHEET" value="https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="CAP CER 100UF 6.3V X5R 1210"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="445-1437-1-ND"/>
+<attribute name="IPC_LAND_PATTERN_NAME" value="CAPC320250X55"/>
+<attribute name="LEAD_FREE" value="yes"/>
+<attribute name="MF" value="TDK"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-C3225X5R0J107M"/>
 <attribute name="MPN" value="C3225X5R0J107M250AC"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/c3225x5r0j107m250ac-tdk-25947844?r=spc#" constant="no"/>
 <attribute name="PACKAGE" value="1210 (3225 metric)"/>
+<attribute name="PREFIX" value="C"/>
+<attribute name="ROHS" value="yes"/>
 <attribute name="TEMPERATURE_RANGE_HIGH" value="+85°C"/>
 <attribute name="TEMPERATURE_RANGE_LOW" value="-55°C"/>
 <attribute name="VOLTAGE" value="6.3V"/>
@@ -1675,9 +1686,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY6" library="supply2" deviceset="VCC" device="" value="VDDA"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R3" library="Hexabitz" deviceset="R-0603" device="" value="10.0K">
-<attribute name="MFN" value="Vishay"/>
-<attribute name="MPN" value="CRCW060310K0JNEB"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/crcw060310k0jneb-vishay+dale-46603268"/>
+<attribute name="MFN" value="Yageo"/>
+<attribute name="MPN" value="RC0603JR-0710KL"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/search?q=RC0603JR-0710KL&amp;start=0"/>
 <attribute name="RESISTANCE" value="10.0K Ohm"/>
 <attribute name="TOLERANCE" value="5%"/>
 </part>
@@ -1770,124 +1781,35 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="U2" library="Hexabitz" deviceset="LM3940IMP-3.3" device=""/>
 <part name="U3" library="Hexabitz" deviceset="FT230XQ-R" device=""/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="FB2" library="Hexabitz" deviceset="FB-TDK_MMZ1608Y300B" device="">
-<attribute name="MFN" value="TDK"/>
-<attribute name="MPN" value="MMZ1608Y300B"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/mmz1608y300b-tdk-368280"/>
-</part>
-<part name="C10" library="Hexabitz" deviceset="C-0805-POL" device="" value="1uF">
-<attribute name="CAPACITANCE" value="1.00 µF"/>
-<attribute name="MFN" value="AVX"/>
-<attribute name="MPN" value="TAJR105M016RNJ"/>
-<attribute name="OCTOPART_URL" value="http://octopart.com/tajr105m016rnj-avx-1188552"/>
-<attribute name="TOLERANCE" value="±20%"/>
-<attribute name="VOLTAGE_RATING" value="16.0 V"/>
-</part>
+<part name="FB2" library="Hexabitz" deviceset="FB-TDK_MMZ1608Y300B" device=""/>
+<part name="C10" library="Hexabitz" deviceset="C-0805-POL" device="" value="1uF"/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
 <part name="C11" library="Hexabitz" deviceset="C-3225" device="TDK_C3225X5R0J107M250AC_0_0" value="100uF"/>
 <part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R4" library="Hexabitz" deviceset="R-0603" device="" value="4.7kΩ">
-<attribute name="MFN" value="Vishay"/>
-<attribute name="MPN" value="CRCW06034K70FKEA"/>
-<attribute name="OCTOPART_URL" value="http://octopart.com/crcw06034k70fkea-vishay-39455708"/>
-<attribute name="RESISTANCE" value="4.7 kΩ"/>
-<attribute name="TOLERANCE" value="±1%"/>
-</part>
-<part name="R5" library="Hexabitz" deviceset="R-0603" device="" value="10kΩ">
-<attribute name="MFN" value="Vishay"/>
-<attribute name="MPN" value="CRCW060310K0JNEB"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/crcw060310k0jneb-vishay+dale-46603268"/>
-<attribute name="RESISTANCE" value="10.0 kΩ"/>
-<attribute name="TOLERANCE" value="±5%"/>
-</part>
+<part name="R4" library="Hexabitz" deviceset="R-0603" device="" value="4.7k"/>
+<part name="R5" library="Hexabitz" deviceset="R-0603" device="" value="10k"/>
 <part name="SUPPLY20" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C12" library="Hexabitz" deviceset="C-0603" device="" value="47pF">
-<attribute name="CAPACITANCE" value="47 pF"/>
-<attribute name="MFN" value="AVX"/>
-<attribute name="MPN" value="06035A470JAT2A"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/c3225x5r0j107m250ac-tdk-25947844?r=spc#"/>
-<attribute name="TOLERANCE" value="±5%"/>
-<attribute name="VOLTAGE_RATING" value="50.0 V"/>
-</part>
-<part name="C13" library="Hexabitz" deviceset="C-0603" device="" value="47pF">
-<attribute name="CAPACITANCE" value="47 pF"/>
-<attribute name="MFN" value="AVX"/>
-<attribute name="MPN" value="06035A470JAT2A"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/06035a470jat2a-avx+interconnect+%2F+elco-46507018"/>
-<attribute name="TOLERANCE" value="±5%"/>
-<attribute name="VOLTAGE_RATING" value="50.0 V"/>
-</part>
+<part name="C12" library="Hexabitz" deviceset="C-0603" device="" value="47pF"/>
+<part name="C13" library="Hexabitz" deviceset="C-0603" device="" value="47pF"/>
 <part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY22" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R6" library="Hexabitz" deviceset="R-0603" device="" value="27.0Ω">
-<attribute name="MFN" value="Vishay"/>
-<attribute name="MPN" value="CRCW060327R0FKEA"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/crcw060327r0fkea-vishay-39833156"/>
-<attribute name="RESISTANCE" value="27.0 Ω"/>
-<attribute name="TOLERANCE" value="±1%"/>
-</part>
-<part name="R7" library="Hexabitz" deviceset="R-0603" device="" value="27.0Ω">
-<attribute name="MFN" value="Vishay"/>
-<attribute name="MPN" value="CRCW060327R0FKEA"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/crcw060327r0fkea-vishay-39833156"/>
-<attribute name="RESISTANCE" value="27.0 Ω"/>
-<attribute name="TOLERANCE" value="±1%"/>
-</part>
-<part name="C14" library="Hexabitz" deviceset="C-0603" device="" value="100nF">
-<attribute name="CAPACITANCE" value="100 nF"/>
-<attribute name="MFN" value="AVX"/>
-<attribute name="MPN" value="0603YC104K4T2A"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/0603yc104k4t2a-avx+interconnect+%2F+elco-8120651"/>
-<attribute name="TOLERANCE" value="±10%"/>
-<attribute name="VOLTAGE_RATING" value="16.0 V"/>
-</part>
+<part name="R6" library="Hexabitz" deviceset="R-0603" device="" value="27.0"/>
+<part name="R7" library="Hexabitz" deviceset="R-0603" device="" value="27.0"/>
+<part name="C14" library="Hexabitz" deviceset="C-0603" device="" value="100nF"/>
 <part name="SUPPLY23" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY24" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
-<part name="R8" library="Hexabitz" deviceset="R-0603" device="" value="270.0Ω">
-<attribute name="MFN" value="Panasonic"/>
-<attribute name="MPN" value="ERJ-3GEYJ271V"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/erj-3geyj271v-panasonic-55560546"/>
-<attribute name="RESISTANCE" value="270.0 Ω"/>
-<attribute name="TOLERANCE" value="±5%"/>
-</part>
-<part name="R9" library="Hexabitz" deviceset="R-0603" device="" value="39.0Ω">
-<attribute name="MFN" value="Panasonic"/>
-<attribute name="MPN" value="ERJ-3GEYJ390V"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/erj-3geyj390v-panasonic-55422095"/>
-<attribute name="RESISTANCE" value="39.0 Ω"/>
-<attribute name="TOLERANCE" value="±5%"/>
-</part>
+<part name="R8" library="Hexabitz" deviceset="R-0603" device="" value="270.0"/>
+<part name="R9" library="Hexabitz" deviceset="R-0603" device="" value="39.0"/>
 <part name="D2" library="Hexabitz" deviceset="VLMS1300-GS08" device="" value="RED"/>
 <part name="D3" library="Hexabitz" deviceset="VLMTG1300-GS08" device="" value="GREEN"/>
 <part name="SUPPLY25" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
 <part name="SUPPLY26" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C15" library="Hexabitz" deviceset="C-0603" device="" value="100nF">
-<attribute name="CAPACITANCE" value="100 nF"/>
-<attribute name="MFN" value="AVX"/>
-<attribute name="MPN" value="0603YC104K4T2A"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/0603yc104k4t2a-avx+interconnect+%2F+elco-8120651"/>
-<attribute name="TOLERANCE" value="±10%"/>
-<attribute name="VOLTAGE_RATING" value="16.0 V"/>
-</part>
-<part name="C16" library="Hexabitz" deviceset="C-0603" device="" value="100nF">
-<attribute name="CAPACITANCE" value="100 nF"/>
-<attribute name="MFN" value="AVX"/>
-<attribute name="MPN" value="0603YC104K4T2A"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/0603yc104k4t2a-avx+interconnect+%2F+elco-8120651"/>
-<attribute name="TOLERANCE" value="±10%"/>
-<attribute name="VOLTAGE_RATING" value="16.0 V"/>
-</part>
-<part name="C17" library="Hexabitz" deviceset="C-0805-POL" device="" value="4.7uF">
-<attribute name="CAPACITANCE" value="4.7 µF"/>
-<attribute name="MFN" value="Panasonic"/>
-<attribute name="MPN" value="10TPU4R7MSI"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/10tpu4r7msi-panasonic-29487748"/>
-<attribute name="TOLERANCE" value="±20%"/>
-<attribute name="VOLTAGE_RATING" value="10.0 V"/>
-</part>
+<part name="C15" library="Hexabitz" deviceset="C-0603" device="" value="100nF"/>
+<part name="C16" library="Hexabitz" deviceset="C-0603" device="" value="100nF"/>
+<part name="C17" library="Hexabitz" deviceset="C-0805-POL" device="" value="4.7uF"/>
 <part name="SUPPLY27" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
 <part name="SUPPLY28" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
@@ -4252,7 +4174,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="231.14" y1="18.288" x2="231.14" y2="22.86" width="0.1524" layer="205"/>
 <text x="242.6462" y="6.1722" size="1.9304" layer="100" font="vector">www.hexabitz.com</text>
 <text x="180.2892" y="4.7752" size="1.9304" layer="102" font="vector">Anas Kaadan</text>
-<text x="21.59" y="196.85" size="2.54" layer="97">VDD = 3.3v</text>
 </plain>
 <instances>
 <instance part="C8" gate="G$1" x="224.79" y="113.03" smashed="yes">
@@ -13148,7 +13069,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="231.14" y1="18.288" x2="231.14" y2="22.86" width="0.1524" layer="205"/>
 <text x="242.6462" y="6.1722" size="1.9304" layer="100" font="vector">www.hexabitz.com</text>
 <text x="180.4162" y="4.7752" size="1.9304" layer="102" font="vector">Anas Kaadan</text>
-<text x="22.86" y="196.85" size="2.54" layer="97">VDD = 3.3v</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="27.94" y="116.84" smashed="yes">
@@ -13187,7 +13107,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="SUPPLY17" gate="G$1" x="106.68" y="177.8" smashed="yes">
 <attribute name="VALUE" x="104.775" y="180.975" size="1.778" layer="96"/>
 </instance>
-<instance part="C11" gate="G$0" x="116.84" y="165.1" smashed="yes">
+<instance part="C11" gate="G$0" x="114.3" y="167.64" smashed="yes">
 <attribute name="NAME" x="118.11" y="167.64" size="1.778" layer="95" rot="MR180" align="top-left"/>
 <attribute name="CAPACITANCE" x="118.11" y="161.29" size="1.778" layer="96"/>
 </instance>

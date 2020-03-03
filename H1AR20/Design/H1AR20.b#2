@@ -1359,10 +1359,10 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="43.227525" y="31.926021875" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R3" library="Hexabitz" package="R-0603" value="10.0K" x="35.2099875" y="40.34715" smashed="yes" rot="MR270">
-<attribute name="MFN" value="Vishay" x="35.2099875" y="40.34715" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="CRCW060310K0JNEB" x="35.2099875" y="40.34715" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MFN" value="Yageo" x="35.2099875" y="40.34715" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603JR-0710KL" x="35.2099875" y="40.34715" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="34.210753125" y="41.751" size="1.016" layer="26" rot="MR270"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/crcw060310k0jneb-vishay+dale-46603268" x="35.2099875" y="40.34715" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/search?q=RC0603JR-0710KL&amp;start=0" x="35.2099875" y="40.34715" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="RESISTANCE" value="10.0K Ohm" x="35.2099875" y="40.34715" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="35.2099875" y="40.34715" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="37.1149875" y="40.98215" size="1.27" layer="28" rot="MR270"/>
@@ -1464,11 +1464,13 @@ design rules under a new name.</description>
 </element>
 <element name="P1" library="hexabitz_connectors" package="HEXABIT_17.32_NO_P3" value="HEXABIT_17.32_NO_P3" x="34.6202" y="34.6202" smashed="yes"/>
 <element name="J1" library="Hexabitz" package="67503-1020" value="67503-1020" x="7.112" y="25.654" smashed="yes">
+<attribute name="AVAILABILITY" value="Unavailable" x="7.112" y="25.654" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" USB - mini B USB 2.0 OTG Receptacle Connector 5 Position Surface Mount, Right Angle " x="7.112" y="25.654" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="Molex" x="7.112" y="25.654" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="67503-1020" x="7.112" y="25.654" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Molex" x="7.112" y="25.654" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="67503-1020" x="7.112" y="25.654" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="12.58453125" y="25.707053125" size="1.27128125" layer="25" align="center"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/67503-1020-molex-766176?r=sp" x="7.112" y="25.654" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="None" x="7.112" y="25.654" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="7.112" y="25.654" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="12.588509375" y="25.70709375" size="1.272209375" layer="51" align="center"/>
 </element>
 <element name="JP1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="JP1" package3d_urn="urn:adsk.eagle:package:15455/1" value="" x="2.667" y="22.733" smashed="yes">
@@ -1476,134 +1478,143 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="5.588" y="20.193" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="U2" library="Hexabitz" package="SOT230P696X180-4N" value="LM3940IMP-3.3" x="-7.366" y="25.908" smashed="yes">
+<attribute name="AVAILABILITY" value="Unavailable" x="-7.366" y="25.908" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" Linear Voltage Regulator IC 1 Output 1A SOT-223-4 " x="-7.366" y="25.908" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="Texas Instruments" x="-7.366" y="25.908" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="LM3940IMP-3.3/NOPB" x="-7.366" y="25.908" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Texas Instruments" x="-7.366" y="25.908" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="LM3940IMP-3.3/NOPB" x="-7.366" y="25.908" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-12.01495" y="29.51538125" size="2.083140625" layer="25" ratio="10" rot="SR0"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/lm3940imp-3.3%2Fnopb-texas+instruments-24823014?r=sp" x="-7.366" y="25.908" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="SOT-223 Texas Instruments" x="-7.366" y="25.908" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-7.366" y="25.908" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-12.8303" y="20.31661875" size="2.084059375" layer="27" ratio="10" rot="SR0"/>
 </element>
 <element name="U3" library="Hexabitz" package="QFN16" value="FT230XQ-R" x="-16.002" y="23.368" smashed="yes">
+<attribute name="AVAILABILITY" value="Unavailable" x="-16.002" y="23.368" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" USB Bridge, USB to UART USB 2.0 UART Interface 16-QFN _4x4_ " x="-16.002" y="23.368" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="FTDI," x="-16.002" y="23.368" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="FT230XQ-R" x="-16.002" y="23.368" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="FTDI," x="-16.002" y="23.368" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="FT230XQ-R" x="-16.002" y="23.368" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-18.21008125" y="25.977540625" size="0.6118375" layer="25" ratio="18"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/ft230xq-r-ftdi-22061504?r=sp" x="-16.002" y="23.368" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="QFN-16 FTDI" x="-16.002" y="23.368" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-16.002" y="23.368" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-18.20981875" y="20.15661875" size="0.61176875" layer="27" ratio="10"/>
 </element>
 <element name="FB2" library="Hexabitz" package="FB-TDK_MMZ1608Y300B" value="" x="-17.145" y="17.399" smashed="yes">
-<attribute name="MFN" value="TDK" x="-17.145" y="17.399" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MMZ1608Y300B" x="-17.145" y="17.399" size="1.778" layer="27" display="off"/>
+<attribute name="MFN" value="" x="-17.145" y="17.399" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-17.145" y="17.399" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-17.78" y="18.034" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/mmz1608y300b-tdk-368280" x="-17.145" y="17.399" size="1.778" layer="27" display="off"/>
+<attribute name="OCTOPART_URL" value="" x="-17.145" y="17.399" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-17.78" y="15.494" size="1.016" layer="27"/>
 </element>
 <element name="C10" library="Hexabitz" package="C-0805-POL" value="1uF" x="-16.51" y="13.589" smashed="yes">
-<attribute name="CAPACITANCE" value="1.00 µF" x="-16.51" y="13.589" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="AVX" x="-16.51" y="13.589" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="TAJR105M016RNJ" x="-16.51" y="13.589" size="1.778" layer="27" display="off"/>
+<attribute name="CAPACITANCE" value="" x="-16.51" y="13.589" size="1.778" layer="27" display="off"/>
+<attribute name="MFN" value="" x="-16.51" y="13.589" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-16.51" y="13.589" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-17.78" y="14.859" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="http://octopart.com/tajr105m016rnj-avx-1188552" x="-16.51" y="13.589" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±20%" x="-16.51" y="13.589" size="1.778" layer="27" display="off"/>
+<attribute name="OCTOPART_URL" value="" x="-16.51" y="13.589" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="-16.51" y="13.589" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-17.78" y="11.049" size="1.016" layer="27"/>
-<attribute name="VOLTAGE_RATING" value="16.0 V" x="-16.51" y="13.589" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_RATING" value="" x="-16.51" y="13.589" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C11" library="Hexabitz" package="C-3225" value="100uF" x="-16.256" y="10.922" smashed="yes">
 <attribute name="CAPACITANCE" value="100.0µF" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="CAP CER 100UF 6.3V X5R 1210" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="TDK" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
+<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="CAP CER 100UF 6.3V X5R 1210" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="445-1437-1-ND" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
+<attribute name="IPC_LAND_PATTERN_NAME" value="CAPC320250X55" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
+<attribute name="LEAD_FREE" value="yes" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="TDK" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-C3225X5R0J107M" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="C3225X5R0J107M250AC" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-13.696" y="10.522" size="1" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/c3225x5r0j107m250ac-tdk-25947844?r=spc#" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="1210 (3225 metric)" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
+<attribute name="PREFIX" value="C" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS" value="yes" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
 <attribute name="TEMPERATURE_RANGE_HIGH" value="+85°C" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
 <attribute name="TEMPERATURE_RANGE_LOW" value="-55°C" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE" value="6.3V" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R4" library="Hexabitz" package="R-0603" value="4.7kΩ" x="-16.637" y="6.731" smashed="yes">
-<attribute name="MFN" value="Vishay" x="-16.637" y="6.731" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CRCW06034K70FKEA" x="-16.637" y="6.731" size="1.778" layer="27" display="off"/>
+<element name="R4" library="Hexabitz" package="R-0603" value="4.7k" x="-16.637" y="6.731" smashed="yes">
+<attribute name="MFN" value="" x="-16.637" y="6.731" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-16.637" y="6.731" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-18.12239375" y="7.886190625" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="http://octopart.com/crcw06034k70fkea-vishay-39455708" x="-16.637" y="6.731" size="1.778" layer="27" display="off"/>
-<attribute name="RESISTANCE" value="4.7 kΩ" x="-16.637" y="6.731" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±1%" x="-16.637" y="6.731" size="1.778" layer="27" display="off"/>
+<attribute name="OCTOPART_URL" value="" x="-16.637" y="6.731" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="" x="-16.637" y="6.731" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="-16.637" y="6.731" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-18.174971875" y="4.840984375" size="1.016" layer="27"/>
 </element>
-<element name="R5" library="Hexabitz" package="R-0603" value="10kΩ" x="-16.637" y="3.048" smashed="yes">
-<attribute name="MFN" value="Vishay" x="-16.637" y="3.048" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CRCW060310K0JNEB" x="-16.637" y="3.048" size="1.778" layer="27" display="off"/>
+<element name="R5" library="Hexabitz" package="R-0603" value="10k" x="-16.637" y="3.048" smashed="yes">
+<attribute name="MFN" value="" x="-16.637" y="3.048" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-16.637" y="3.048" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-18.12239375" y="4.203190625" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/crcw060310k0jneb-vishay+dale-46603268" x="-16.637" y="3.048" size="1.778" layer="27" display="off"/>
-<attribute name="RESISTANCE" value="10.0 kΩ" x="-16.637" y="3.048" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±5%" x="-16.637" y="3.048" size="1.778" layer="27" display="off"/>
+<attribute name="OCTOPART_URL" value="" x="-16.637" y="3.048" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="" x="-16.637" y="3.048" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="-16.637" y="3.048" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-18.174971875" y="1.157984375" size="1.016" layer="27"/>
 </element>
 <element name="C12" library="Hexabitz" package="C-0603" value="47pF" x="-17.145" y="-0.127" smashed="yes">
-<attribute name="CAPACITANCE" value="47 pF" x="-17.145" y="-0.127" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="AVX" x="-17.145" y="-0.127" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="06035A470JAT2A" x="-17.145" y="-0.127" size="1.778" layer="27" display="off"/>
+<attribute name="CAPACITANCE" value="" x="-17.145" y="-0.127" size="1.778" layer="27" display="off"/>
+<attribute name="MFN" value="" x="-17.145" y="-0.127" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-17.145" y="-0.127" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-17.78" y="0.508" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/c3225x5r0j107m250ac-tdk-25947844?r=spc#" x="-17.145" y="-0.127" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±5%" x="-17.145" y="-0.127" size="1.778" layer="27" display="off"/>
+<attribute name="OCTOPART_URL" value="" x="-17.145" y="-0.127" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="-17.145" y="-0.127" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-17.78" y="-2.032" size="1.016" layer="27"/>
-<attribute name="VOLTAGE_RATING" value="50.0 V" x="-17.145" y="-0.127" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_RATING" value="" x="-17.145" y="-0.127" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C13" library="Hexabitz" package="C-0603" value="47pF" x="-17.145" y="-3.302" smashed="yes">
-<attribute name="CAPACITANCE" value="47 pF" x="-17.145" y="-3.302" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="AVX" x="-17.145" y="-3.302" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="06035A470JAT2A" x="-17.145" y="-3.302" size="1.778" layer="27" display="off"/>
+<attribute name="CAPACITANCE" value="" x="-17.145" y="-3.302" size="1.778" layer="27" display="off"/>
+<attribute name="MFN" value="" x="-17.145" y="-3.302" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-17.145" y="-3.302" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-17.78" y="-2.667" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/06035a470jat2a-avx+interconnect+%2F+elco-46507018" x="-17.145" y="-3.302" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±5%" x="-17.145" y="-3.302" size="1.778" layer="27" display="off"/>
+<attribute name="OCTOPART_URL" value="" x="-17.145" y="-3.302" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="-17.145" y="-3.302" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-17.78" y="-5.207" size="1.016" layer="27"/>
-<attribute name="VOLTAGE_RATING" value="50.0 V" x="-17.145" y="-3.302" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_RATING" value="" x="-17.145" y="-3.302" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R6" library="Hexabitz" package="R-0603" value="27.0Ω" x="-16.637" y="-6.985" smashed="yes">
-<attribute name="MFN" value="Vishay" x="-16.637" y="-6.985" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CRCW060327R0FKEA" x="-16.637" y="-6.985" size="1.778" layer="27" display="off"/>
+<element name="R6" library="Hexabitz" package="R-0603" value="27.0" x="-16.637" y="-6.985" smashed="yes">
+<attribute name="MFN" value="" x="-16.637" y="-6.985" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-16.637" y="-6.985" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-18.12239375" y="-5.829809375" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/crcw060327r0fkea-vishay-39833156" x="-16.637" y="-6.985" size="1.778" layer="27" display="off"/>
-<attribute name="RESISTANCE" value="27.0 Ω" x="-16.637" y="-6.985" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±1%" x="-16.637" y="-6.985" size="1.778" layer="27" display="off"/>
+<attribute name="OCTOPART_URL" value="" x="-16.637" y="-6.985" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="" x="-16.637" y="-6.985" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="-16.637" y="-6.985" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-18.174971875" y="-8.875015625" size="1.016" layer="27"/>
 </element>
-<element name="R7" library="Hexabitz" package="R-0603" value="27.0Ω" x="-16.637" y="-10.668" smashed="yes">
-<attribute name="MFN" value="Vishay" x="-16.637" y="-10.668" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CRCW060327R0FKEA" x="-16.637" y="-10.668" size="1.778" layer="27" display="off"/>
+<element name="R7" library="Hexabitz" package="R-0603" value="27.0" x="-16.637" y="-10.668" smashed="yes">
+<attribute name="MFN" value="" x="-16.637" y="-10.668" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-16.637" y="-10.668" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-18.12239375" y="-9.512809375" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/crcw060327r0fkea-vishay-39833156" x="-16.637" y="-10.668" size="1.778" layer="27" display="off"/>
-<attribute name="RESISTANCE" value="27.0 Ω" x="-16.637" y="-10.668" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±1%" x="-16.637" y="-10.668" size="1.778" layer="27" display="off"/>
+<attribute name="OCTOPART_URL" value="" x="-16.637" y="-10.668" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="" x="-16.637" y="-10.668" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="-16.637" y="-10.668" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-18.174971875" y="-12.558015625" size="1.016" layer="27"/>
 </element>
 <element name="C14" library="Hexabitz" package="C-0603" value="100nF" x="-17.145" y="-13.843" smashed="yes">
-<attribute name="CAPACITANCE" value="100 nF" x="-17.145" y="-13.843" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="AVX" x="-17.145" y="-13.843" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="0603YC104K4T2A" x="-17.145" y="-13.843" size="1.778" layer="27" display="off"/>
+<attribute name="CAPACITANCE" value="" x="-17.145" y="-13.843" size="1.778" layer="27" display="off"/>
+<attribute name="MFN" value="" x="-17.145" y="-13.843" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-17.145" y="-13.843" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-17.78" y="-13.208" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/0603yc104k4t2a-avx+interconnect+%2F+elco-8120651" x="-17.145" y="-13.843" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±10%" x="-17.145" y="-13.843" size="1.778" layer="27" display="off"/>
+<attribute name="OCTOPART_URL" value="" x="-17.145" y="-13.843" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="-17.145" y="-13.843" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-17.78" y="-15.748" size="1.016" layer="27"/>
-<attribute name="VOLTAGE_RATING" value="16.0 V" x="-17.145" y="-13.843" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_RATING" value="" x="-17.145" y="-13.843" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R8" library="Hexabitz" package="R-0603" value="270.0Ω" x="-16.637" y="-17.526" smashed="yes">
-<attribute name="MFN" value="Panasonic" x="-16.637" y="-17.526" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ERJ-3GEYJ271V" x="-16.637" y="-17.526" size="1.778" layer="27" display="off"/>
+<element name="R8" library="Hexabitz" package="R-0603" value="270.0" x="-16.637" y="-17.526" smashed="yes">
+<attribute name="MFN" value="" x="-16.637" y="-17.526" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-16.637" y="-17.526" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-18.12239375" y="-16.370809375" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/erj-3geyj271v-panasonic-55560546" x="-16.637" y="-17.526" size="1.778" layer="27" display="off"/>
-<attribute name="RESISTANCE" value="270.0 Ω" x="-16.637" y="-17.526" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±5%" x="-16.637" y="-17.526" size="1.778" layer="27" display="off"/>
+<attribute name="OCTOPART_URL" value="" x="-16.637" y="-17.526" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="" x="-16.637" y="-17.526" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="-16.637" y="-17.526" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-18.174971875" y="-19.416015625" size="1.016" layer="27"/>
 </element>
-<element name="R9" library="Hexabitz" package="R-0603" value="39.0Ω" x="-16.637" y="-21.209" smashed="yes">
-<attribute name="MFN" value="Panasonic" x="-16.637" y="-21.209" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ERJ-3GEYJ390V" x="-16.637" y="-21.209" size="1.778" layer="27" display="off"/>
+<element name="R9" library="Hexabitz" package="R-0603" value="39.0" x="-16.637" y="-21.209" smashed="yes">
+<attribute name="MFN" value="" x="-16.637" y="-21.209" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-16.637" y="-21.209" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-18.12239375" y="-20.053809375" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/erj-3geyj390v-panasonic-55422095" x="-16.637" y="-21.209" size="1.778" layer="27" display="off"/>
-<attribute name="RESISTANCE" value="39.0 Ω" x="-16.637" y="-21.209" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±5%" x="-16.637" y="-21.209" size="1.778" layer="27" display="off"/>
+<attribute name="OCTOPART_URL" value="" x="-16.637" y="-21.209" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="" x="-16.637" y="-21.209" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="-16.637" y="-21.209" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-18.174971875" y="-23.099015625" size="1.016" layer="27"/>
 </element>
 <element name="D2" library="Hexabitz" package="VLMS1300-GS08" value="RED" x="-16.129" y="-25.273" smashed="yes">
@@ -1621,34 +1632,34 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-18.129" y="-34.498" size="1.016" layer="27"/>
 </element>
 <element name="C15" library="Hexabitz" package="C-0603" value="100nF" x="-17.145" y="-37.211" smashed="yes">
-<attribute name="CAPACITANCE" value="100 nF" x="-17.145" y="-37.211" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="AVX" x="-17.145" y="-37.211" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="0603YC104K4T2A" x="-17.145" y="-37.211" size="1.778" layer="27" display="off"/>
+<attribute name="CAPACITANCE" value="" x="-17.145" y="-37.211" size="1.778" layer="27" display="off"/>
+<attribute name="MFN" value="" x="-17.145" y="-37.211" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-17.145" y="-37.211" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-17.78" y="-36.576" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/0603yc104k4t2a-avx+interconnect+%2F+elco-8120651" x="-17.145" y="-37.211" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±10%" x="-17.145" y="-37.211" size="1.778" layer="27" display="off"/>
+<attribute name="OCTOPART_URL" value="" x="-17.145" y="-37.211" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="-17.145" y="-37.211" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-17.78" y="-39.116" size="1.016" layer="27"/>
-<attribute name="VOLTAGE_RATING" value="16.0 V" x="-17.145" y="-37.211" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_RATING" value="" x="-17.145" y="-37.211" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C16" library="Hexabitz" package="C-0603" value="100nF" x="-17.145" y="-40.386" smashed="yes">
-<attribute name="CAPACITANCE" value="100 nF" x="-17.145" y="-40.386" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="AVX" x="-17.145" y="-40.386" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="0603YC104K4T2A" x="-17.145" y="-40.386" size="1.778" layer="27" display="off"/>
+<attribute name="CAPACITANCE" value="" x="-17.145" y="-40.386" size="1.778" layer="27" display="off"/>
+<attribute name="MFN" value="" x="-17.145" y="-40.386" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-17.145" y="-40.386" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-17.78" y="-39.751" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/0603yc104k4t2a-avx+interconnect+%2F+elco-8120651" x="-17.145" y="-40.386" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±10%" x="-17.145" y="-40.386" size="1.778" layer="27" display="off"/>
+<attribute name="OCTOPART_URL" value="" x="-17.145" y="-40.386" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="-17.145" y="-40.386" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-17.78" y="-42.291" size="1.016" layer="27"/>
-<attribute name="VOLTAGE_RATING" value="16.0 V" x="-17.145" y="-40.386" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_RATING" value="" x="-17.145" y="-40.386" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C17" library="Hexabitz" package="C-0805-POL" value="4.7uF" x="-16.51" y="-44.196" smashed="yes">
-<attribute name="CAPACITANCE" value="4.7 µF" x="-16.51" y="-44.196" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="Panasonic" x="-16.51" y="-44.196" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="10TPU4R7MSI" x="-16.51" y="-44.196" size="1.778" layer="27" display="off"/>
+<attribute name="CAPACITANCE" value="" x="-16.51" y="-44.196" size="1.778" layer="27" display="off"/>
+<attribute name="MFN" value="" x="-16.51" y="-44.196" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-16.51" y="-44.196" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-17.78" y="-42.926" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/10tpu4r7msi-panasonic-29487748" x="-16.51" y="-44.196" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±20%" x="-16.51" y="-44.196" size="1.778" layer="27" display="off"/>
+<attribute name="OCTOPART_URL" value="" x="-16.51" y="-44.196" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="-16.51" y="-44.196" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-17.78" y="-46.736" size="1.016" layer="27"/>
-<attribute name="VOLTAGE_RATING" value="10.0 V" x="-16.51" y="-44.196" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_RATING" value="" x="-16.51" y="-44.196" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>

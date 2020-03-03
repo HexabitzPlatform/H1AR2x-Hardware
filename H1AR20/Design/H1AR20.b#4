@@ -3,7 +3,7 @@
 <eagle version="9.3.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -641,8 +641,8 @@
 <wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
 <smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<text x="-1.48539375" y="1.155190625" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.537971875" y="-1.890015625" size="1.016" layer="27">&gt;VALUE</text>
+<text x="-0.635" y="0.635" size="1.016" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.016" layer="27">&gt;VALUE</text>
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 </package>
@@ -725,115 +725,6 @@
 <text x="-2.54" y="1.27" size="1.9304" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.9304" layer="27">&gt;VALUE</text>
 <smd name="P$2" x="0" y="0" dx="1.599996875" dy="0.999996875" layer="16" roundness="50" rot="R180" cream="no"/>
-</package>
-<package name="67503-1020">
-<description>&lt;b&gt;67503-1020&lt;/b&gt;&lt;br&gt;
-</description>
-<text x="5.47253125" y="0.053053125" size="1.27128125" layer="25" align="center">&gt;NAME</text>
-<text x="5.476509375" y="0.05309375" size="1.272209375" layer="51" align="center">&gt;VALUE</text>
-<wire x1="0" y1="3.85" x2="9" y2="3.85" width="0.2" layer="51"/>
-<wire x1="9" y1="3.85" x2="9" y2="-3.85" width="0.2" layer="51"/>
-<wire x1="9" y1="-3.85" x2="0" y2="-3.85" width="0.2" layer="51"/>
-<wire x1="0" y1="-3.85" x2="0" y2="3.85" width="0.2" layer="51"/>
-<wire x1="0" y1="-3.85" x2="0" y2="3.85" width="0.2" layer="25"/>
-<wire x1="0" y1="-3.85" x2="1.62" y2="-3.85" width="0.2" layer="25"/>
-<wire x1="0" y1="3.85" x2="1.62" y2="3.85" width="0.2" layer="25"/>
-<circle x="9.854" y="2.011" radius="0.10061875" width="0.2" layer="25"/>
-<smd name="1" x="8.225" y="1.6" dx="2.25" dy="0.5" layer="1"/>
-<smd name="2" x="8.225" y="0.8" dx="2.25" dy="0.5" layer="1"/>
-<smd name="3" x="8.225" y="0" dx="2.25" dy="0.5" layer="1"/>
-<smd name="4" x="8.225" y="-0.8" dx="2.25" dy="0.5" layer="1"/>
-<smd name="5" x="8.225" y="-1.6" dx="2.25" dy="0.5" layer="1"/>
-<pad name="6" x="5.9" y="2.2" drill="0.95" diameter="1.45"/>
-<pad name="7" x="5.9" y="-2.2" drill="0.95" diameter="1.45"/>
-<smd name="8" x="4" y="-4.925" dx="4" dy="2.05" layer="1"/>
-<smd name="9" x="8.25" y="-4.925" dx="3.5" dy="2.05" layer="1"/>
-<smd name="10" x="8.25" y="4.925" dx="3.5" dy="2.05" layer="1"/>
-<smd name="11" x="4" y="4.925" dx="4" dy="2.05" layer="1"/>
-</package>
-<package name="SOT230P696X180-4N">
-<wire x1="-1.8542" y1="1.905" x2="-1.8542" y2="2.6924" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="2.6924" x2="-3.6576" y2="2.6924" width="0.1524" layer="51"/>
-<wire x1="-3.6576" y1="2.6924" x2="-3.6576" y2="1.905" width="0.1524" layer="51"/>
-<wire x1="-3.6576" y1="1.905" x2="-1.8542" y2="1.905" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="-0.381" x2="-1.8542" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="0.4064" x2="-3.6576" y2="0.4064" width="0.1524" layer="51"/>
-<wire x1="-3.6576" y1="0.4064" x2="-3.6576" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="-3.6576" y1="-0.381" x2="-1.8542" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="-2.6924" x2="-1.8542" y2="-1.905" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="-1.905" x2="-3.6576" y2="-1.905" width="0.1524" layer="51"/>
-<wire x1="-3.6576" y1="-1.905" x2="-3.6576" y2="-2.6924" width="0.1524" layer="51"/>
-<wire x1="-3.6576" y1="-2.6924" x2="-1.8542" y2="-2.6924" width="0.1524" layer="51"/>
-<wire x1="1.8542" y1="1.5494" x2="1.8542" y2="-1.5494" width="0.1524" layer="51"/>
-<wire x1="1.8542" y1="-1.5494" x2="3.6576" y2="-1.5494" width="0.1524" layer="51"/>
-<wire x1="3.6576" y1="-1.5494" x2="3.6576" y2="1.5494" width="0.1524" layer="51"/>
-<wire x1="3.6576" y1="1.5494" x2="1.8542" y2="1.5494" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="-3.3528" x2="1.8542" y2="-3.3528" width="0.1524" layer="51"/>
-<wire x1="1.8542" y1="-3.3528" x2="1.8542" y2="3.3528" width="0.1524" layer="51"/>
-<wire x1="1.8542" y1="3.3528" x2="-1.8542" y2="3.3528" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="3.3528" x2="-1.8542" y2="-3.3528" width="0.1524" layer="51"/>
-<wire x1="-1.8542" y1="-3.3528" x2="1.8542" y2="-3.3528" width="0.1524" layer="21"/>
-<wire x1="1.8542" y1="-3.3528" x2="1.8542" y2="3.3528" width="0.1524" layer="21"/>
-<wire x1="1.8542" y1="3.3528" x2="-1.8542" y2="3.3528" width="0.1524" layer="21"/>
-<wire x1="-1.8542" y1="3.3528" x2="-1.8542" y2="-3.3528" width="0.1524" layer="21"/>
-<text x="-4.64895" y="3.60738125" size="2.083140625" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-5.4643" y="-5.59138125" size="2.084059375" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
-<smd name="1" x="-3.2004" y="2.3114" dx="1.6002" dy="0.8382" layer="1"/>
-<smd name="2" x="-3.2004" y="0" dx="1.6002" dy="0.8382" layer="1"/>
-<smd name="3" x="-3.2004" y="-2.3114" dx="1.6002" dy="0.8382" layer="1"/>
-<smd name="4" x="3.2004" y="0" dx="1.6002" dy="3.0988" layer="1"/>
-</package>
-<package name="QFN16">
-<description>&lt;b&gt;QFN 16&lt;/b&gt;&lt;p&gt;
-body 4x4mm, pitch 0.65mm</description>
-<wire x1="-2" y1="2" x2="2" y2="2" width="0.0508" layer="51"/>
-<wire x1="2" y1="2" x2="2" y2="-2" width="0.0508" layer="51"/>
-<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.0508" layer="51"/>
-<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.0508" layer="51"/>
-<wire x1="-2.15" y1="1.4" x2="-2.15" y2="2.15" width="0.1524" layer="21"/>
-<wire x1="-2.15" y1="2.15" x2="-1.4" y2="2.15" width="0.1524" layer="21"/>
-<text x="-2.20808125" y="2.609540625" size="0.6118375" layer="25" ratio="18">&gt;NAME</text>
-<text x="-2.20781875" y="-3.21138125" size="0.61176875" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-2.15778125" y1="1.45525" x2="-1.45" y2="2.15" layer="21"/>
-<wire x1="2.15" y1="2.15" x2="1.4" y2="2.15" width="0.1524" layer="21"/>
-<wire x1="2.15" y1="-2.15" x2="1.4" y2="-2.15" width="0.1524" layer="21"/>
-<wire x1="-2.15" y1="-2.15" x2="-1.4" y2="-2.15" width="0.1524" layer="21"/>
-<wire x1="-2.15" y1="-1.4" x2="-2.15" y2="-2.15" width="0.1524" layer="21"/>
-<wire x1="2.15" y1="-1.4" x2="2.15" y2="-2.15" width="0.1524" layer="21"/>
-<wire x1="2.15" y1="1.4" x2="2.15" y2="2.15" width="0.1524" layer="21"/>
-<smd name="1" x="-2" y="0.975" dx="0.8" dy="0.35" layer="1" roundness="75"/>
-<smd name="2" x="-2" y="0.325" dx="0.8" dy="0.35" layer="1" roundness="75"/>
-<smd name="3" x="-2" y="-0.325" dx="0.8" dy="0.35" layer="1" roundness="75"/>
-<smd name="4" x="-2" y="-0.975" dx="0.8" dy="0.35" layer="1" roundness="75"/>
-<smd name="5" x="-0.975" y="-2" dx="0.8" dy="0.35" layer="1" roundness="75" rot="R90"/>
-<smd name="6" x="-0.325" y="-2" dx="0.8" dy="0.35" layer="1" roundness="75" rot="R90"/>
-<smd name="7" x="0.325" y="-2" dx="0.8" dy="0.35" layer="1" roundness="75" rot="R90"/>
-<smd name="8" x="0.975" y="-2" dx="0.8" dy="0.35" layer="1" roundness="75" rot="R90"/>
-<smd name="9" x="2" y="-0.975" dx="0.8" dy="0.35" layer="1" roundness="75" rot="R180"/>
-<smd name="10" x="2" y="-0.325" dx="0.8" dy="0.35" layer="1" roundness="75" rot="R180"/>
-<smd name="11" x="2" y="0.325" dx="0.8" dy="0.35" layer="1" roundness="75" rot="R180"/>
-<smd name="12" x="2" y="0.975" dx="0.8" dy="0.35" layer="1" roundness="75" rot="R180"/>
-<smd name="13" x="0.975" y="2" dx="0.8" dy="0.35" layer="1" roundness="75" rot="R270"/>
-<smd name="14" x="0.325" y="2" dx="0.8" dy="0.35" layer="1" roundness="75" rot="R270"/>
-<smd name="15" x="-0.325" y="2" dx="0.8" dy="0.35" layer="1" roundness="75" rot="R270"/>
-<smd name="16" x="-0.975" y="2" dx="0.8" dy="0.35" layer="1" roundness="75" rot="R270"/>
-<smd name="17" x="0" y="0" dx="2.15" dy="2.15" layer="1"/>
-</package>
-<package name="C-3225">
-<description>100µF ±20% 6.3V Ceramic Capacitor X5R 1210 (3225 Metric)</description>
-<wire x1="-1.8" y1="-1.4" x2="-1.8" y2="1.4" width="0.15" layer="51"/>
-<wire x1="-1.8" y1="1.4" x2="1.8" y2="1.4" width="0.15" layer="51"/>
-<wire x1="1.8" y1="1.4" x2="1.8" y2="-1.4" width="0.15" layer="51"/>
-<wire x1="1.8" y1="-1.4" x2="-1.8" y2="-1.4" width="0.15" layer="51"/>
-<wire x1="-0.8" y1="1.4" x2="0.8" y2="1.4" width="0.15" layer="21"/>
-<wire x1="-0.8" y1="-1.4" x2="0.8" y2="-1.4" width="0.15" layer="21"/>
-<wire x1="-2.3" y1="-1.5" x2="-2.3" y2="1.5" width="0.1" layer="39"/>
-<wire x1="-2.3" y1="1.5" x2="2.3" y2="1.5" width="0.1" layer="39"/>
-<wire x1="2.3" y1="1.5" x2="2.3" y2="-1.5" width="0.1" layer="39"/>
-<wire x1="2.3" y1="-1.5" x2="-2.3" y2="-1.5" width="0.1" layer="39"/>
-<text x="2.56" y="-0.4" size="1" layer="25">&gt;NAME</text>
-<smd name="1" x="-1.65" y="0" dx="1.1" dy="2.2" layer="1"/>
-<smd name="2" x="1.65" y="0" dx="1.1" dy="2.2" layer="1"/>
 </package>
 </packages>
 </library>
@@ -1071,43 +962,6 @@ body 4x4mm, pitch 0.65mm</description>
 </package>
 </packages>
 </library>
-<library name="jumper" urn="urn:adsk.eagle:library:252">
-<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="JP1" urn="urn:adsk.eagle:footprint:15398/1" library_version="1">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<wire x1="-1.016" y1="0" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="0" x2="-1.27" y2="-0.254" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0" x2="1.27" y2="-0.254" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.254" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-2.54" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="2.286" x2="1.016" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="2.286" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="2.54" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="2.286" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="2.286" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-0.254" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="-2.54" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="-2.54" x2="1.016" y2="-2.54" width="0.1524" layer="21"/>
-<pad name="1" x="0" y="-1.27" drill="0.9144" shape="long"/>
-<pad name="2" x="0" y="1.27" drill="0.9144" shape="long"/>
-<text x="-1.651" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="2.921" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.3048" y1="0.9652" x2="0.3048" y2="1.5748" layer="51"/>
-<rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="JP1" urn="urn:adsk.eagle:package:15455/1" type="box" library_version="1">
-<description>JUMPER</description>
-<packageinstances>
-<packageinstance name="JP1"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1321,12 +1175,12 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="40.818740625" y="30.412796875" size="1.27" layer="28" rot="MR90"/>
 <attribute name="VOLTAGE_RATING" value="16V" x="43.358740625" y="31.682796875" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="D1" library="Hexabitz" package="VLMS1300-GS08" value="RED" x="25.17318125" y="31.26105" smashed="yes" rot="R90">
+<element name="D1" library="Hexabitz" package="VLMS1300-GS08" value="VLMS1300-GS08" x="25.17318125" y="31.26105" smashed="yes" rot="R90">
 <attribute name="MFN" value="Vishay" x="25.17318125" y="31.26105" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="VLMS1300-GS08" x="25.17318125" y="31.26105" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="23.816315625" y="30.64725625" size="1.016" layer="25" rot="R180" align="bottom-right"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/vlms1300-gs08-vishay-21709201?r=sp&amp;s=_gcP4_q8T1SC6PJQPTQ9yA" x="25.17318125" y="31.26105" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="RED" x="28.04818125" y="29.26105" size="1.27" layer="27" rot="R90"/>
+<attribute name="VALUE" x="28.04818125" y="29.26105" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="FB1" library="Hexabitz" package="FB-TDK_MMZ1608Y300B" value="FB-TDK_MMZ1608Y300B" x="46.786365625" y="34.291521875" smashed="yes">
 <attribute name="MFN" value="TDK " x="46.786365625" y="34.291521875" size="1.778" layer="27" display="off"/>
@@ -1359,10 +1213,10 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="43.227525" y="31.926021875" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R3" library="Hexabitz" package="R-0603" value="10.0K" x="35.2099875" y="40.34715" smashed="yes" rot="MR270">
-<attribute name="MFN" value="Vishay" x="35.2099875" y="40.34715" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="CRCW060310K0JNEB" x="35.2099875" y="40.34715" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MFN" value="Yageo" x="35.2099875" y="40.34715" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603JR-0710KL" x="35.2099875" y="40.34715" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="34.210753125" y="41.751" size="1.016" layer="26" rot="MR270"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/crcw060310k0jneb-vishay+dale-46603268" x="35.2099875" y="40.34715" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/search?q=RC0603JR-0710KL&amp;start=0" x="35.2099875" y="40.34715" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="RESISTANCE" value="10.0K Ohm" x="35.2099875" y="40.34715" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="35.2099875" y="40.34715" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="37.1149875" y="40.98215" size="1.27" layer="28" rot="MR270"/>
@@ -1463,193 +1317,6 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="39.15715" y="39.39031875" size="1.9304" layer="27"/>
 </element>
 <element name="P1" library="hexabitz_connectors" package="HEXABIT_17.32_NO_P3" value="HEXABIT_17.32_NO_P3" x="34.6202" y="34.6202" smashed="yes"/>
-<element name="J1" library="Hexabitz" package="67503-1020" value="67503-1020" x="7.112" y="25.654" smashed="yes">
-<attribute name="DESCRIPTION" value=" USB - mini B USB 2.0 OTG Receptacle Connector 5 Position Surface Mount, Right Angle " x="7.112" y="25.654" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="Molex" x="7.112" y="25.654" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="67503-1020" x="7.112" y="25.654" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="12.58453125" y="25.707053125" size="1.27128125" layer="25" align="center"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/67503-1020-molex-766176?r=sp" x="7.112" y="25.654" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="12.588509375" y="25.70709375" size="1.272209375" layer="51" align="center"/>
-</element>
-<element name="JP1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="JP1" package3d_urn="urn:adsk.eagle:package:15455/1" value="" x="2.667" y="22.733" smashed="yes">
-<attribute name="NAME" x="1.016" y="20.193" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="5.588" y="20.193" size="1.27" layer="27" ratio="10" rot="R90"/>
-</element>
-<element name="U2" library="Hexabitz" package="SOT230P696X180-4N" value="LM3940IMP-3.3" x="-7.366" y="25.908" smashed="yes">
-<attribute name="DESCRIPTION" value=" Linear Voltage Regulator IC 1 Output 1A SOT-223-4 " x="-7.366" y="25.908" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="Texas Instruments" x="-7.366" y="25.908" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="LM3940IMP-3.3/NOPB" x="-7.366" y="25.908" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-12.01495" y="29.51538125" size="2.083140625" layer="25" ratio="10" rot="SR0"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/lm3940imp-3.3%2Fnopb-texas+instruments-24823014?r=sp" x="-7.366" y="25.908" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="SOT-223 Texas Instruments" x="-7.366" y="25.908" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-12.8303" y="20.31661875" size="2.084059375" layer="27" ratio="10" rot="SR0"/>
-</element>
-<element name="U3" library="Hexabitz" package="QFN16" value="FT230XQ-R" x="-16.002" y="23.368" smashed="yes">
-<attribute name="DESCRIPTION" value=" USB Bridge, USB to UART USB 2.0 UART Interface 16-QFN _4x4_ " x="-16.002" y="23.368" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="FTDI," x="-16.002" y="23.368" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="FT230XQ-R" x="-16.002" y="23.368" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-18.21008125" y="25.977540625" size="0.6118375" layer="25" ratio="18"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/ft230xq-r-ftdi-22061504?r=sp" x="-16.002" y="23.368" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="QFN-16 FTDI" x="-16.002" y="23.368" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-18.20981875" y="20.15661875" size="0.61176875" layer="27" ratio="10"/>
-</element>
-<element name="FB2" library="Hexabitz" package="FB-TDK_MMZ1608Y300B" value="" x="-17.145" y="17.399" smashed="yes">
-<attribute name="MFN" value="TDK" x="-17.145" y="17.399" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MMZ1608Y300B" x="-17.145" y="17.399" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-17.78" y="18.034" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/mmz1608y300b-tdk-368280" x="-17.145" y="17.399" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-17.78" y="15.494" size="1.016" layer="27"/>
-</element>
-<element name="C10" library="Hexabitz" package="C-0805-POL" value="1uF" x="-16.51" y="13.589" smashed="yes">
-<attribute name="CAPACITANCE" value="1.00 µF" x="-16.51" y="13.589" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="AVX" x="-16.51" y="13.589" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="TAJR105M016RNJ" x="-16.51" y="13.589" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-17.78" y="14.859" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="http://octopart.com/tajr105m016rnj-avx-1188552" x="-16.51" y="13.589" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±20%" x="-16.51" y="13.589" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-17.78" y="11.049" size="1.016" layer="27"/>
-<attribute name="VOLTAGE_RATING" value="16.0 V" x="-16.51" y="13.589" size="1.778" layer="27" display="off"/>
-</element>
-<element name="C11" library="Hexabitz" package="C-3225" value="100uF" x="-16.256" y="10.922" smashed="yes">
-<attribute name="CAPACITANCE" value="100.0µF" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="CAP CER 100UF 6.3V X5R 1210" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="TDK" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="C3225X5R0J107M250AC" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-13.696" y="10.522" size="1" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/c3225x5r0j107m250ac-tdk-25947844?r=spc#" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="1210 (3225 metric)" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+85°C" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="-55°C" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE" value="6.3V" x="-16.256" y="10.922" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R4" library="Hexabitz" package="R-0603" value="4.7kΩ" x="-16.637" y="6.731" smashed="yes">
-<attribute name="MFN" value="Vishay" x="-16.637" y="6.731" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CRCW06034K70FKEA" x="-16.637" y="6.731" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-18.12239375" y="7.886190625" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="http://octopart.com/crcw06034k70fkea-vishay-39455708" x="-16.637" y="6.731" size="1.778" layer="27" display="off"/>
-<attribute name="RESISTANCE" value="4.7 kΩ" x="-16.637" y="6.731" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±1%" x="-16.637" y="6.731" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-18.174971875" y="4.840984375" size="1.016" layer="27"/>
-</element>
-<element name="R5" library="Hexabitz" package="R-0603" value="10kΩ" x="-16.637" y="3.048" smashed="yes">
-<attribute name="MFN" value="Vishay" x="-16.637" y="3.048" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CRCW060310K0JNEB" x="-16.637" y="3.048" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-18.12239375" y="4.203190625" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/crcw060310k0jneb-vishay+dale-46603268" x="-16.637" y="3.048" size="1.778" layer="27" display="off"/>
-<attribute name="RESISTANCE" value="10.0 kΩ" x="-16.637" y="3.048" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±5%" x="-16.637" y="3.048" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-18.174971875" y="1.157984375" size="1.016" layer="27"/>
-</element>
-<element name="C12" library="Hexabitz" package="C-0603" value="47pF" x="-17.145" y="-0.127" smashed="yes">
-<attribute name="CAPACITANCE" value="47 pF" x="-17.145" y="-0.127" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="AVX" x="-17.145" y="-0.127" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="06035A470JAT2A" x="-17.145" y="-0.127" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-17.78" y="0.508" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/c3225x5r0j107m250ac-tdk-25947844?r=spc#" x="-17.145" y="-0.127" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±5%" x="-17.145" y="-0.127" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-17.78" y="-2.032" size="1.016" layer="27"/>
-<attribute name="VOLTAGE_RATING" value="50.0 V" x="-17.145" y="-0.127" size="1.778" layer="27" display="off"/>
-</element>
-<element name="C13" library="Hexabitz" package="C-0603" value="47pF" x="-17.145" y="-3.302" smashed="yes">
-<attribute name="CAPACITANCE" value="47 pF" x="-17.145" y="-3.302" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="AVX" x="-17.145" y="-3.302" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="06035A470JAT2A" x="-17.145" y="-3.302" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-17.78" y="-2.667" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/06035a470jat2a-avx+interconnect+%2F+elco-46507018" x="-17.145" y="-3.302" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±5%" x="-17.145" y="-3.302" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-17.78" y="-5.207" size="1.016" layer="27"/>
-<attribute name="VOLTAGE_RATING" value="50.0 V" x="-17.145" y="-3.302" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R6" library="Hexabitz" package="R-0603" value="27.0Ω" x="-16.637" y="-6.985" smashed="yes">
-<attribute name="MFN" value="Vishay" x="-16.637" y="-6.985" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CRCW060327R0FKEA" x="-16.637" y="-6.985" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-18.12239375" y="-5.829809375" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/crcw060327r0fkea-vishay-39833156" x="-16.637" y="-6.985" size="1.778" layer="27" display="off"/>
-<attribute name="RESISTANCE" value="27.0 Ω" x="-16.637" y="-6.985" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±1%" x="-16.637" y="-6.985" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-18.174971875" y="-8.875015625" size="1.016" layer="27"/>
-</element>
-<element name="R7" library="Hexabitz" package="R-0603" value="27.0Ω" x="-16.637" y="-10.668" smashed="yes">
-<attribute name="MFN" value="Vishay" x="-16.637" y="-10.668" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CRCW060327R0FKEA" x="-16.637" y="-10.668" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-18.12239375" y="-9.512809375" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/crcw060327r0fkea-vishay-39833156" x="-16.637" y="-10.668" size="1.778" layer="27" display="off"/>
-<attribute name="RESISTANCE" value="27.0 Ω" x="-16.637" y="-10.668" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±1%" x="-16.637" y="-10.668" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-18.174971875" y="-12.558015625" size="1.016" layer="27"/>
-</element>
-<element name="C14" library="Hexabitz" package="C-0603" value="100nF" x="-17.145" y="-13.843" smashed="yes">
-<attribute name="CAPACITANCE" value="100 nF" x="-17.145" y="-13.843" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="AVX" x="-17.145" y="-13.843" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="0603YC104K4T2A" x="-17.145" y="-13.843" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-17.78" y="-13.208" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/0603yc104k4t2a-avx+interconnect+%2F+elco-8120651" x="-17.145" y="-13.843" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±10%" x="-17.145" y="-13.843" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-17.78" y="-15.748" size="1.016" layer="27"/>
-<attribute name="VOLTAGE_RATING" value="16.0 V" x="-17.145" y="-13.843" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R8" library="Hexabitz" package="R-0603" value="270.0Ω" x="-16.637" y="-17.526" smashed="yes">
-<attribute name="MFN" value="Panasonic" x="-16.637" y="-17.526" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ERJ-3GEYJ271V" x="-16.637" y="-17.526" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-18.12239375" y="-16.370809375" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/erj-3geyj271v-panasonic-55560546" x="-16.637" y="-17.526" size="1.778" layer="27" display="off"/>
-<attribute name="RESISTANCE" value="270.0 Ω" x="-16.637" y="-17.526" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±5%" x="-16.637" y="-17.526" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-18.174971875" y="-19.416015625" size="1.016" layer="27"/>
-</element>
-<element name="R9" library="Hexabitz" package="R-0603" value="39.0Ω" x="-16.637" y="-21.209" smashed="yes">
-<attribute name="MFN" value="Panasonic" x="-16.637" y="-21.209" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ERJ-3GEYJ390V" x="-16.637" y="-21.209" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-18.12239375" y="-20.053809375" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/erj-3geyj390v-panasonic-55422095" x="-16.637" y="-21.209" size="1.778" layer="27" display="off"/>
-<attribute name="RESISTANCE" value="39.0 Ω" x="-16.637" y="-21.209" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±5%" x="-16.637" y="-21.209" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-18.174971875" y="-23.099015625" size="1.016" layer="27"/>
-</element>
-<element name="D2" library="Hexabitz" package="VLMS1300-GS08" value="RED" x="-16.129" y="-25.273" smashed="yes">
-<attribute name="MFN" value="Vishay" x="-16.129" y="-25.273" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="VLMS1300-GS08" x="-16.129" y="-25.273" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-18.129" y="-23.773" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/vlms1300-gs08-vishay-21709201?r=sp&amp;s=0nXJNjGsSbWwqfqWlZv0EA" x="-16.129" y="-25.273" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-18.129" y="-28.148" size="1.016" layer="27"/>
-</element>
-<element name="D3" library="Hexabitz" package="VLMS1300-GS08" value="GREEN" x="-16.129" y="-31.623" smashed="yes">
-<attribute name="MFN" value="Vishay" x="-16.129" y="-31.623" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="VLMTG1300-GS08" x="-16.129" y="-31.623" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-18.129" y="-30.123" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/vlmtg1300-gs08-vishay-21709202" x="-16.129" y="-31.623" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-18.129" y="-34.498" size="1.016" layer="27"/>
-</element>
-<element name="C15" library="Hexabitz" package="C-0603" value="100nF" x="-17.145" y="-37.211" smashed="yes">
-<attribute name="CAPACITANCE" value="100 nF" x="-17.145" y="-37.211" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="AVX" x="-17.145" y="-37.211" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="0603YC104K4T2A" x="-17.145" y="-37.211" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-17.78" y="-36.576" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/0603yc104k4t2a-avx+interconnect+%2F+elco-8120651" x="-17.145" y="-37.211" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±10%" x="-17.145" y="-37.211" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-17.78" y="-39.116" size="1.016" layer="27"/>
-<attribute name="VOLTAGE_RATING" value="16.0 V" x="-17.145" y="-37.211" size="1.778" layer="27" display="off"/>
-</element>
-<element name="C16" library="Hexabitz" package="C-0603" value="100nF" x="-17.145" y="-40.386" smashed="yes">
-<attribute name="CAPACITANCE" value="100 nF" x="-17.145" y="-40.386" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="AVX" x="-17.145" y="-40.386" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="0603YC104K4T2A" x="-17.145" y="-40.386" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-17.78" y="-39.751" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/0603yc104k4t2a-avx+interconnect+%2F+elco-8120651" x="-17.145" y="-40.386" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±10%" x="-17.145" y="-40.386" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-17.78" y="-42.291" size="1.016" layer="27"/>
-<attribute name="VOLTAGE_RATING" value="16.0 V" x="-17.145" y="-40.386" size="1.778" layer="27" display="off"/>
-</element>
-<element name="C17" library="Hexabitz" package="C-0805-POL" value="4.7uF" x="-16.51" y="-44.196" smashed="yes">
-<attribute name="CAPACITANCE" value="4.7 µF" x="-16.51" y="-44.196" size="1.778" layer="27" display="off"/>
-<attribute name="MFN" value="Panasonic" x="-16.51" y="-44.196" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="10TPU4R7MSI" x="-16.51" y="-44.196" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-17.78" y="-42.926" size="1.016" layer="25"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/10tpu4r7msi-panasonic-29487748" x="-16.51" y="-44.196" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="±20%" x="-16.51" y="-44.196" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-17.78" y="-46.736" size="1.016" layer="27"/>
-<attribute name="VOLTAGE_RATING" value="10.0 V" x="-16.51" y="-44.196" size="1.778" layer="27" display="off"/>
-</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1682,64 +1349,7 @@ design rules under a new name.</description>
 <vertex x="25.960325" y="49.6196625"/>
 <vertex x="17.30019375" y="34.6202"/>
 </polygon>
-<contactref element="U3" pad="3"/>
-<contactref element="U3" pad="13"/>
-<contactref element="U3" pad="17"/>
-<contactref element="J1" pad="5"/>
-<contactref element="J1" pad="9"/>
-<contactref element="J1" pad="10"/>
-<contactref element="J1" pad="11"/>
-<contactref element="J1" pad="8"/>
-<contactref element="C10" pad="2"/>
-<contactref element="U2" pad="2"/>
-<contactref element="U2" pad="4"/>
-<contactref element="C11" pad="1"/>
-<contactref element="R5" pad="1"/>
-<contactref element="C12" pad="2"/>
-<contactref element="C13" pad="2"/>
-<contactref element="C14" pad="2"/>
-<contactref element="C15" pad="2"/>
-<contactref element="C17" pad="2"/>
-<contactref element="C16" pad="2"/>
-<wire x1="37.388290625" y1="41.212378125" x2="42.8802" y2="48.9302" width="0" layer="19" extent="16-16"/>
-<wire x1="35.2099875" y1="41.19715" x2="37.388290625" y2="41.212378125" width="0" layer="19" extent="16-16"/>
-<wire x1="36.8702" y1="38.07020625" x2="37.388290625" y2="41.212378125" width="0" layer="19" extent="16-16"/>
-<wire x1="34.6202" y1="34.6202" x2="36.8702" y2="38.07020625" width="0" layer="19" extent="16-16"/>
-<wire x1="31.17019375" y1="36.8702" x2="34.6202" y2="34.6202" width="0" layer="19" extent="16-16"/>
-<wire x1="29.5475625" y1="39.411515625" x2="31.17019375" y2="36.8702" width="0" layer="19" extent="16-16"/>
-<wire x1="27.387303125" y1="40.788853125" x2="29.5475625" y2="39.411515625" width="0" layer="19" extent="16-16"/>
-<wire x1="32.3702" y1="31.17019375" x2="34.6202" y2="34.6202" width="0" layer="19" extent="16-16"/>
-<wire x1="28.574375" y1="29.74035" x2="32.3702" y2="31.17019375" width="0" layer="19" extent="16-16"/>
-<wire x1="27.921209375" y1="31.929284375" x2="28.574375" y2="29.74035" width="0" layer="19" extent="16-16"/>
-<wire x1="25.92318125" y1="31.26105" x2="27.921209375" y2="31.929284375" width="0" layer="19" extent="1-16"/>
-<wire x1="40.433525" y1="35.482021875" x2="36.8702" y2="38.07020625" width="0" layer="19" extent="16-16"/>
-<wire x1="41.465871875" y1="38.647371875" x2="40.433525" y2="35.482021875" width="0" layer="19" extent="16-16"/>
-<wire x1="43.209009375" y1="38.65205625" x2="41.465871875" y2="38.647371875" width="0" layer="19" extent="16-16"/>
-<wire x1="46.74628125" y1="34.941253125" x2="43.209009375" y2="38.65205625" width="0" layer="19" extent="16-16"/>
-<wire x1="51.1402" y1="34.6202" x2="46.74628125" y2="34.941253125" width="0" layer="19" extent="16-16"/>
-<wire x1="26.3602" y1="48.9302" x2="27.387303125" y2="40.788853125" width="0" layer="19" extent="16-16"/>
-<wire x1="18.1002" y1="34.6202" x2="25.92318125" y2="31.26105" width="0" layer="19" extent="1-16"/>
-<wire x1="15.362" y1="30.579" x2="18.1002" y2="34.6202" width="0" layer="19" extent="1-16"/>
-<wire x1="11.112" y1="30.579" x2="15.362" y2="30.579" width="0" layer="19" extent="1-1"/>
-<wire x1="15.337" y1="24.054" x2="15.362" y2="30.579" width="0" layer="19" extent="1-1"/>
-<wire x1="15.362" y1="20.729" x2="15.337" y2="24.054" width="0" layer="19" extent="1-1"/>
-<wire x1="11.112" y1="20.729" x2="15.362" y2="20.729" width="0" layer="19" extent="1-1"/>
-<wire x1="26.3602" y1="20.3102" x2="28.574375" y2="29.74035" width="0" layer="19" extent="16-16"/>
-<wire x1="42.8802" y1="20.3102" x2="32.3702" y2="31.17019375" width="0" layer="19" extent="16-16"/>
-<wire x1="-4.1656" y1="25.908" x2="11.112" y2="30.579" width="0" layer="19" extent="1-1"/>
-<wire x1="-10.5664" y1="25.908" x2="-4.1656" y2="25.908" width="0" layer="19" extent="1-1"/>
-<wire x1="-15.027" y1="25.368" x2="-10.5664" y2="25.908" width="0" layer="19" extent="1-1"/>
-<wire x1="-16.002" y1="23.368" x2="-15.027" y2="25.368" width="0" layer="19" extent="1-1"/>
-<wire x1="-18.002" y1="23.043" x2="-16.002" y2="23.368" width="0" layer="19" extent="1-1"/>
-<wire x1="-15.56" y1="13.589" x2="-18.002" y2="23.043" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.906" y1="10.922" x2="-15.56" y2="13.589" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.487" y1="3.048" x2="-17.906" y2="10.922" width="0" layer="19" extent="1-1"/>
-<wire x1="-16.295" y1="-0.127" x2="-17.487" y2="3.048" width="0" layer="19" extent="1-1"/>
-<wire x1="-16.295" y1="-3.302" x2="-16.295" y2="-0.127" width="0" layer="19" extent="1-1"/>
-<wire x1="-16.295" y1="-13.843" x2="-16.295" y2="-3.302" width="0" layer="19" extent="1-1"/>
-<wire x1="-16.295" y1="-37.211" x2="-16.295" y2="-13.843" width="0" layer="19" extent="1-1"/>
-<wire x1="-16.295" y1="-40.386" x2="-16.295" y2="-37.211" width="0" layer="19" extent="1-1"/>
-<wire x1="-15.56" y1="-44.196" x2="-16.295" y2="-40.386" width="0" layer="19" extent="1-1"/>
+<wire x1="27.921209375" y1="31.929284375" x2="25.92318125" y2="31.26105" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="VDD">
 <contactref element="U1" pad="P$36"/>
@@ -1767,19 +1377,6 @@ design rules under a new name.</description>
 <vertex x="25.960325" y="49.6196625"/>
 <vertex x="17.30019375" y="34.6202"/>
 </polygon>
-<contactref element="U2" pad="3"/>
-<contactref element="C11" pad="2"/>
-<contactref element="U3" pad="9"/>
-<contactref element="C14" pad="1"/>
-<contactref element="U3" pad="8"/>
-<contactref element="U3" pad="1"/>
-<contactref element="U3" pad="10"/>
-<contactref element="D2" pad="A"/>
-<contactref element="D3" pad="A"/>
-<contactref element="C15" pad="1"/>
-<contactref element="C17" pad="1"/>
-<contactref element="C16" pad="1"/>
-<wire x1="39.765871875" y1="38.647371875" x2="42.8802" y2="48.9302" width="0" layer="19" extent="1-16"/>
 <wire x1="38.07020625" y1="37.3702" x2="39.765871875" y2="38.647371875" width="0" layer="19" extent="16-16"/>
 <wire x1="37.3702" y1="38.07020625" x2="38.07020625" y2="37.3702" width="0" layer="19" extent="16-16"/>
 <wire x1="37.388290625" y1="39.512378125" x2="37.3702" y2="38.07020625" width="0" layer="19" extent="16-16"/>
@@ -1790,23 +1387,23 @@ design rules under a new name.</description>
 <wire x1="30.274375" y1="29.74035" x2="27.921209375" y2="33.829284375" width="0" layer="19" extent="16-16"/>
 <wire x1="31.8702" y1="31.17019375" x2="30.274375" y2="29.74035" width="0" layer="19" extent="16-16"/>
 <wire x1="47.636365625" y1="34.291521875" x2="39.765871875" y2="38.647371875" width="0" layer="19" extent="1-16"/>
-<wire x1="51.1402" y1="34.6202" x2="47.636365625" y2="34.291521875" width="0" layer="19" extent="1-1"/>
-<wire x1="18.1002" y1="34.6202" x2="27.921209375" y2="33.829284375" width="0" layer="19" extent="1-16"/>
-<wire x1="26.3602" y1="48.9302" x2="27.387303125" y2="38.888853125" width="0" layer="19" extent="1-16"/>
-<wire x1="26.3602" y1="20.3102" x2="30.274375" y2="29.74035" width="0" layer="19" extent="1-16"/>
-<wire x1="42.8802" y1="20.3102" x2="47.636365625" y2="34.291521875" width="0" layer="19" extent="1-1"/>
-<wire x1="-10.5664" y1="23.5966" x2="18.1002" y2="34.6202" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.002" y1="23.043" x2="-10.5664" y2="23.5966" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.002" y1="22.393" x2="-14.002" y2="23.043" width="0" layer="19" extent="1-1"/>
-<wire x1="-15.027" y1="21.368" x2="-14.002" y2="22.393" width="0" layer="19" extent="1-1"/>
-<wire x1="-18.002" y1="24.343" x2="-14.002" y2="23.043" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.606" y1="10.922" x2="-15.027" y2="21.368" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.995" y1="-13.843" x2="-14.606" y2="10.922" width="0" layer="19" extent="1-1"/>
-<wire x1="-16.129" y1="-24.523" x2="-17.995" y2="-13.843" width="0" layer="19" extent="1-1"/>
-<wire x1="-16.129" y1="-30.873" x2="-16.129" y2="-24.523" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.995" y1="-37.211" x2="-16.129" y2="-30.873" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.995" y1="-40.386" x2="-17.995" y2="-37.211" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.46" y1="-44.196" x2="-17.995" y2="-40.386" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="UART3_TX">
+<contactref element="U1" pad="P$21"/>
+</signal>
+<signal name="UART1_TX">
+<contactref element="U1" pad="P$30"/>
+</signal>
+<signal name="UART3_RX">
+<contactref element="U1" pad="P$22"/>
+</signal>
+<signal name="UART1_RX">
+<contactref element="U1" pad="P$31"/>
+</signal>
+<signal name="N$3">
+<contactref element="U1" pad="P$32"/>
+<contactref element="R1" pad="2"/>
+<wire x1="24.41458125" y1="34.325678125" x2="31.17019375" y2="35.3702" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$4">
 <contactref element="R1" pad="1"/>
@@ -1821,6 +1418,12 @@ design rules under a new name.</description>
 <wire x1="43.358740625" y1="30.732796875" x2="45.936365625" y2="34.291521875" width="0" layer="19" extent="1-16"/>
 <wire x1="40.726609375" y1="30.94236875" x2="43.358740625" y2="30.732796875" width="0" layer="19" extent="16-16"/>
 <wire x1="38.07020625" y1="33.3702" x2="40.726609375" y2="30.94236875" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="UART5_TX">
+<contactref element="U1" pad="P$39"/>
+</signal>
+<signal name="UART5_RX">
+<contactref element="U1" pad="P$40"/>
 </signal>
 <signal name="N$5">
 <contactref element="U1" pad="P$5"/>
@@ -1859,6 +1462,24 @@ design rules under a new name.</description>
 <wire x1="40.726609375" y1="32.64236875" x2="43.358740625" y2="32.632796875" width="0" layer="19" extent="16-16"/>
 <wire x1="38.07020625" y1="33.8702" x2="40.726609375" y2="32.64236875" width="0" layer="19" extent="16-16"/>
 </signal>
+<signal name="UART2_TX">
+<contactref element="U1" pad="P$12"/>
+</signal>
+<signal name="UART6_TX">
+<contactref element="U1" pad="P$14"/>
+</signal>
+<signal name="UART2_RX">
+<contactref element="U1" pad="P$13"/>
+</signal>
+<signal name="UART6_RX">
+<contactref element="U1" pad="P$15"/>
+</signal>
+<signal name="UART4_TX">
+<contactref element="U1" pad="P$10"/>
+</signal>
+<signal name="UART4_RX">
+<contactref element="U1" pad="P$11"/>
+</signal>
 <signal name="N$7">
 <contactref element="U1" pad="P$34"/>
 <contactref element="D" pad="P$2"/>
@@ -1873,151 +1494,6 @@ design rules under a new name.</description>
 <wire x1="29.7942" y1="45.2628" x2="29.7942" y2="45.2628" width="0" layer="19" extent="1-16"/>
 <wire x1="31.8702" y1="38.07020625" x2="29.7942" y2="45.2628" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="USART2_TX">
-<contactref element="P1" pad="PAD_PU1"/>
-<contactref element="U1" pad="P$12"/>
-<wire x1="38.07020625" y1="31.8702" x2="47.0102" y2="41.7702" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="USART6_TX">
-<contactref element="P1" pad="PAD_PU2"/>
-<contactref element="U1" pad="P$14"/>
-<wire x1="36.8702" y1="31.17019375" x2="47.0102" y2="27.4702" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="USART3_TX">
-<contactref element="P1" pad="PAD_PU4"/>
-<contactref element="U1" pad="P$21"/>
-<wire x1="22.2302" y1="27.4702" x2="33.3702" y2="31.17019375" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="USART4_TX">
-<contactref element="P1" pad="PAD_PU5"/>
-<contactref element="U1" pad="P$10"/>
-<wire x1="22.2302" y1="41.7702" x2="38.07020625" y2="32.8702" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="USART5_TX">
-<contactref element="P1" pad="PAD_PU6"/>
-<contactref element="U1" pad="P$39"/>
-<wire x1="32.8702" y1="38.07020625" x2="34.6202" y2="48.9302" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="USART2_RX">
-<contactref element="P1" pad="PAD_PD1"/>
-<contactref element="U1" pad="P$13"/>
-<wire x1="37.3702" y1="31.17019375" x2="47.0102" y2="41.7702" width="0" layer="19" extent="16-16"/>
-</signal>
-<signal name="USART6_RX">
-<contactref element="P1" pad="PAD_PD2"/>
-<contactref element="U1" pad="P$15"/>
-<wire x1="36.3702" y1="31.17019375" x2="47.0102" y2="27.4702" width="0" layer="19" extent="16-16"/>
-</signal>
-<signal name="USART3_RX">
-<contactref element="P1" pad="PAD_PD4"/>
-<contactref element="U1" pad="P$22"/>
-<wire x1="22.2302" y1="27.4702" x2="32.8702" y2="31.17019375" width="0" layer="19" extent="16-16"/>
-</signal>
-<signal name="USART4_RX">
-<contactref element="P1" pad="PAD_PD5"/>
-<contactref element="U1" pad="P$11"/>
-<wire x1="22.2302" y1="41.7702" x2="38.07020625" y2="32.3702" width="0" layer="19" extent="16-16"/>
-</signal>
-<signal name="USART5_RX">
-<contactref element="P1" pad="PAD_PD6"/>
-<contactref element="U1" pad="P$40"/>
-<wire x1="33.3702" y1="38.07020625" x2="34.6202" y2="48.9302" width="0" layer="19" extent="16-16"/>
-</signal>
-<signal name="N$1">
-<contactref element="R1" pad="2"/>
-<contactref element="U1" pad="P$16"/>
-<wire x1="24.41458125" y1="34.325678125" x2="35.8702" y2="31.17019375" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="USART1_CTS">
-<contactref element="U1" pad="P$32"/>
-<contactref element="U3" pad="16"/>
-<wire x1="-16.977" y1="25.368" x2="31.17019375" y2="35.3702" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="USART1_RTS">
-<contactref element="U1" pad="P$33"/>
-<contactref element="U3" pad="4"/>
-<wire x1="-18.002" y1="22.393" x2="31.17019375" y2="35.8702" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="N$10">
-<contactref element="JP1" pad="2"/>
-<contactref element="FB2" pad="2"/>
-<wire x1="-16.295" y1="17.399" x2="2.667" y2="24.003" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$11">
-<contactref element="U2" pad="1"/>
-<contactref element="C10" pad="1"/>
-<contactref element="FB2" pad="1"/>
-<wire x1="-17.995" y1="17.399" x2="-10.5664" y2="28.2194" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.46" y1="13.589" x2="-17.995" y2="17.399" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="VBUS_SENSE">
-<contactref element="R5" pad="2"/>
-<contactref element="R4" pad="1"/>
-<contactref element="U3" pad="14"/>
-<wire x1="-17.487" y1="6.731" x2="-15.787" y2="3.048" width="0" layer="19" extent="1-1"/>
-<wire x1="-15.677" y1="25.368" x2="-17.487" y2="6.731" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$2">
-<contactref element="J1" pad="2"/>
-<contactref element="C13" pad="1"/>
-<contactref element="R6" pad="1"/>
-<wire x1="-17.995" y1="-3.302" x2="15.337" y2="26.454" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.487" y1="-6.985" x2="-17.995" y2="-3.302" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$3">
-<contactref element="C12" pad="1"/>
-<contactref element="R7" pad="1"/>
-<contactref element="J1" pad="3"/>
-<wire x1="-17.995" y1="-0.127" x2="15.337" y2="25.654" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.487" y1="-10.668" x2="-17.995" y2="-0.127" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$13">
-<contactref element="R6" pad="2"/>
-<contactref element="U3" pad="7"/>
-<wire x1="-15.677" y1="21.368" x2="-15.787" y2="-6.985" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$12">
-<contactref element="R7" pad="2"/>
-<contactref element="U3" pad="6"/>
-<wire x1="-16.327" y1="21.368" x2="-15.787" y2="-10.668" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$14">
-<contactref element="R8" pad="1"/>
-<contactref element="U3" pad="5"/>
-<wire x1="-16.977" y1="21.368" x2="-17.487" y2="-17.526" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$15">
-<contactref element="U3" pad="11"/>
-<contactref element="R9" pad="1"/>
-<wire x1="-14.002" y1="23.693" x2="-17.487" y2="-21.209" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$16">
-<contactref element="R8" pad="2"/>
-<contactref element="D2" pad="C"/>
-<wire x1="-15.787" y1="-17.526" x2="-16.129" y2="-26.023" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$17">
-<contactref element="D3" pad="C"/>
-<contactref element="R9" pad="2"/>
-<wire x1="-15.787" y1="-21.209" x2="-16.129" y2="-32.373" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="USART1_RX">
-<contactref element="U3" pad="15"/>
-<contactref element="U1" pad="P$31"/>
-<wire x1="-16.327" y1="25.368" x2="31.17019375" y2="34.8702" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="USART1_TX">
-<contactref element="U3" pad="2"/>
-<contactref element="U1" pad="P$30"/>
-<wire x1="-18.002" y1="23.693" x2="31.17019375" y2="34.3702" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="N$18">
-<contactref element="JP1" pad="1"/>
-<contactref element="J1" pad="1"/>
-<contactref element="R4" pad="2"/>
-<wire x1="2.667" y1="21.463" x2="15.337" y2="27.254" width="0" layer="19" extent="1-1"/>
-<wire x1="-15.787" y1="6.731" x2="2.667" y2="21.463" width="0" layer="19" extent="1-1"/>
-</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
@@ -2028,21 +1504,4 @@ design rules under a new name.</description>
 </mfgpreviewcolors>
 </board>
 </drawing>
-<compatibility>
-<note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
-of those online libraries will not be understood (or retained)
-with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports URNs for individual library
-assets (packages, symbols, and devices). The URNs of those assets
-will not be understood (or retained) with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports the association of 3D packages
-with devices in libraries, schematics, and board files. Those 3D
-packages will not be understood (or retained) with this version.
-</note>
-</compatibility>
 </eagle>
