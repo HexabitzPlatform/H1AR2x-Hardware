@@ -1753,7 +1753,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P1" library="hexabitz_connectors" deviceset="HEXABIT_?_NO_P3" device="17.32"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="USB-B*" library="Hexabitz" deviceset="67503-1020" device=""/>
+<part name="PUSB*" library="Hexabitz" deviceset="67503-1020" device=""/>
 <part name="U2" library="Hexabitz" deviceset="FT230XQ-R" device=""/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="FB2" library="Hexabitz" deviceset="FB-TDK_MMZ1608Y300B" device="">
@@ -13179,7 +13179,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="22.86" y="196.85" size="2.54" layer="97">VDD = 3.3v</text>
 </plain>
 <instances>
-<instance part="USB-B*" gate="G$1" x="27.94" y="116.84" smashed="yes">
+<instance part="PUSB*" gate="G$1" x="27.94" y="116.84" smashed="yes">
 <attribute name="NAME" x="27.9578" y="127.00648125" size="1.78026875" layer="95" align="center"/>
 <attribute name="VALUE" x="27.9445" y="104.1367" size="1.77858125" layer="96" align="center"/>
 </instance>
@@ -13315,11 +13315,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="GND" class="0">
 <segment>
 <pinref part="SUPPLY14" gate="GND" pin="GND"/>
-<pinref part="USB-B*" gate="G$1" pin="GND"/>
+<pinref part="PUSB*" gate="G$1" pin="GND"/>
 <wire x1="43.18" y1="95.25" x2="43.18" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="109.22" x2="43.18" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="111.76" x2="39.37" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="USB-B*" gate="G$1" pin="SHEILD"/>
+<pinref part="PUSB*" gate="G$1" pin="SHEILD"/>
 <wire x1="39.37" y1="109.22" x2="43.18" y2="109.22" width="0.1524" layer="91"/>
 <junction x="43.18" y="109.22"/>
 </segment>
@@ -13476,7 +13476,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="USB-B*" gate="G$1" pin="D-"/>
+<pinref part="PUSB*" gate="G$1" pin="D-"/>
 <wire x1="39.37" y1="119.38" x2="92.71" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="1"/>
 <wire x1="92.71" y1="109.22" x2="92.71" y2="119.38" width="0.1524" layer="91"/>
@@ -13491,7 +13491,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="80.01" y1="109.22" x2="80.01" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="114.3" x2="80.01" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="USB-B*" gate="G$1" pin="D+"/>
+<pinref part="PUSB*" gate="G$1" pin="D+"/>
 <wire x1="39.37" y1="116.84" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="116.84" x2="60.96" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="114.3" x2="80.01" y2="114.3" width="0.1524" layer="91"/>
@@ -13572,7 +13572,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="USB-B*" gate="G$1" pin="VBUS"/>
+<pinref part="PUSB*" gate="G$1" pin="VBUS"/>
 <wire x1="39.37" y1="121.92" x2="50.8" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="110.49" x2="50.8" y2="121.92" width="0.1524" layer="91"/>
